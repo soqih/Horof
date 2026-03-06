@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
+@plugin "tailwindcss-animate";
+
+@theme {
+  --font-cairo: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+
+  --color-neo-bg: #fdf6e3;
+  --color-neo-text: #000000;
+  --color-neo-primary: #ffd60a;
+  --color-neo-blue: #00b4d8;
+  --color-neo-red: #ff4d4d;
+  --color-neo-pink: #ff006e;
+  --color-neo-green: #00f5d4;
+  --color-neo-gray: #d3d3d3;
+  --color-neo-dark: #121212;
+
+  --shadow-neo: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-neo-lg: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+@utility neo-pressed {
+  transform: translate(2px, 2px);
+  box-shadow: none !important;
+}
+
+@utility text-shadow-neo {
+  text-shadow: 2px 2px 0px #000;
+}
+
+/* Base resets for Neo-Brutalist look */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: var(--color-neo-bg);
+  --foreground: var(--color-neo-text);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-cairo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure no standard focus outlines disrupt the brutalist border */
+*:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+}
+
+/* Perk overlay buzz animation */
+@keyframes perk-buzz {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-4px, -2px); }
+  20% { transform: translate(4px, 2px); }
+  30% { transform: translate(-3px, 2px); }
+  40% { transform: translate(3px, -2px); }
+  50% { transform: translate(-2px, 0); }
+  60% { transform: translate(2px, 0); }
+  70% { transform: translate(-2px, 1px); }
+  80% { transform: translate(2px, -1px); }
+  90% { transform: translate(-1px, 0); }
 }
