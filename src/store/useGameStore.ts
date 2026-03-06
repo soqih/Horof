@@ -23,6 +23,8 @@ interface GameState {
     redPerks: PerksState;
     bluePerks: PerksState;
     winner: Team | null;
+    activeFazaaTeam: Team | null; // Which team's فزعة is active THIS turn
+    usedQuestionIds: string[]; // Track used questions to prevent repeats
     _hasHydrated: boolean; // Hydration fix
 
     // Actions
@@ -31,6 +33,9 @@ interface GameState {
     usePerk: (team: Team, perk: keyof PerksState) => void;
     resetGame: () => void;
     setTurn: (team: Team) => void; // Optional manual override
+    setActiveFazaaTeam: (team: Team | null) => void;
+    clearActiveFazaaTeam: () => void;
+    markQuestionUsed: (id: string) => void;
 }
 
 const initialPerks: PerksState = {
@@ -55,6 +60,8 @@ export const useGameStore = create<GameState>()(
             redPerks: { ...initialPerks },
             bluePerks: { ...initialPerks },
             winner: null,
+            activeFazaaTeam: null,
+            usedQuestionIds: [],
             _hasHydrated: false,
 
             setHasHydrated: (state) => {
@@ -92,16 +99,25 @@ export const useGameStore = create<GameState>()(
             },
 
             resetGame: () => {
+                // Clear persisted storage completely
+                try { localStorage.removeItem('huroof-sub-storage'); } catch { }
                 set({
                     cells: createInitialCells(),
                     turn: 'red',
                     redPerks: { ...initialPerks },
                     bluePerks: { ...initialPerks },
                     winner: null,
+                    activeFazaaTeam: null,
+                    usedQuestionIds: [],
                 });
             },
 
             setTurn: (team) => set({ turn: team }),
+            setActiveFazaaTeam: (team) => set({ activeFazaaTeam: team }),
+            clearActiveFazaaTeam: () => set({ activeFazaaTeam: null }),
+            markQuestionUsed: (id) => set((state) => ({
+                usedQuestionIds: [...state.usedQuestionIds, id],
+            })),
         }),
         {
             name: 'huroof-sub-storage',

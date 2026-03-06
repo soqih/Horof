@@ -59,12 +59,22 @@ export async function loadQuestions(): Promise<Question[]> {
 export function getRandomQuestionByLetter(
     questions: Question[],
     letter: string,
-    categoryOverride?: string
+    categoryOverride?: string,
+    excludeIds: string[] = []
 ): Question {
     let pool = questions.filter((q) => matchesLetter(letter, q.letter));
 
     if (categoryOverride) {
         pool = pool.filter((q) => q.category === categoryOverride);
+    }
+
+    // Filter out already-used questions
+    const excludeSet = new Set(excludeIds);
+    const freshPool = pool.filter((q) => !excludeSet.has(q.id));
+
+    // Use fresh pool if available, otherwise fall back to full pool (all used up)
+    if (freshPool.length > 0) {
+        pool = freshPool;
     }
 
     if (pool.length === 0) {

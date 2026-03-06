@@ -22,8 +22,8 @@ export function useQuestions() {
     return {
         questions,
         loading,
-        getRandomQuestion: (letter: string, category?: string) =>
-            getRandomQuestionByLetter(questions, letter, category),
+        getRandomQuestion: (letter: string, category?: string, excludeIds?: string[]) =>
+            getRandomQuestionByLetter(questions, letter, category, excludeIds),
         getCategoriesForLetter: (letter: string) =>
             getAvailableCategoriesForLetter(questions, letter),
         getAllCategories: () => getAllCategories(questions),

@@ -20,7 +20,7 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
     const [timerSeconds, setTimerSeconds] = useState<number | null>(null);
     const [showAnswer, setShowAnswer] = useState(false);
 
-    const { captureCell, turn, redPerks, bluePerks } = useGameStore();
+    const { captureCell, turn, activeFazaaTeam, usedQuestionIds, markQuestionUsed, clearActiveFazaaTeam } = useGameStore();
     const {
         questions,
         loading,
@@ -30,16 +30,17 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
     } = useQuestions();
 
     const allCategories = getAllCategories();
-    const fazaaUsedByTurn = turn === 'red' ? redPerks.fazaa : bluePerks.fazaa;
-    const mustPickCategory = fazaaUsedByTurn;
+    const mustPickCategory = activeFazaaTeam === turn;
 
     const loadQuestion = useCallback(
         (category?: string) => {
             if (!cell || questions.length === 0) return;
             const cat = category === RANDOM_LABEL || !category ? undefined : category;
-            setQuestion(getRandomQuestion(cell.letter, cat));
+            const q = getRandomQuestion(cell.letter, cat, usedQuestionIds);
+            setQuestion(q);
+            markQuestionUsed(q.id);
         },
-        [cell, questions.length, getRandomQuestion]
+        [cell, questions.length, getRandomQuestion, usedQuestionIds, markQuestionUsed]
     );
 
     useEffect(() => {
@@ -68,13 +69,14 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
     const handleChangeQuestion = () => {
         if (!cell) return;
         const cat = selectedCategory === RANDOM_LABEL ? undefined : selectedCategory;
-        let nextQ = getRandomQuestion(cell.letter, cat);
+        let nextQ = getRandomQuestion(cell.letter, cat, usedQuestionIds);
         let attempts = 0;
         while (question && nextQ.id === question.id && attempts < 5) {
-            nextQ = getRandomQuestion(cell.letter, cat);
+            nextQ = getRandomQuestion(cell.letter, cat, usedQuestionIds);
             attempts++;
         }
         setQuestion(nextQ);
+        markQuestionUsed(nextQ.id);
         setRevealedWordCount(0);
         setShowAnswer(false);
         setTimerSeconds(null);
@@ -91,11 +93,13 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
 
     const handleCorrectRed = () => {
         if (cell) captureCell(cell.id, 'red');
+        clearActiveFazaaTeam();
         onClose();
     };
 
     const handleCorrectBlue = () => {
         if (cell) captureCell(cell.id, 'blue');
+        clearActiveFazaaTeam();
         onClose();
     };
 
@@ -223,11 +227,10 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
                         </NeoButton>
                     ) : (
                         <div
-                            className={`text-6xl font-black border-4 border-black p-4 inline-block ${
-                                timerSeconds === 0
+                            className={`text-6xl font-black border-4 border-black p-4 inline-block ${timerSeconds === 0
                                     ? 'bg-[var(--color-neo-red)] text-white animate-bounce'
                                     : 'bg-white'
-                            }`}
+                                }`}
                         >
                             00:0{timerSeconds}
                         </div>

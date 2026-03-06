@@ -11,7 +11,7 @@ import { NeoButton } from '../../components/ui/NeoButton';
 import { NeoModal } from '../../components/ui/NeoModal';
 
 export default function BoardPage() {
-    const { winner, turn, setTurn, resetGame, _hasHydrated } = useGameStore();
+    const { winner, turn, setTurn, resetGame, _hasHydrated, setActiveFazaaTeam, clearActiveFazaaTeam } = useGameStore();
     const [activeCell, setActiveCell] = useState<CellData | null>(null);
     const [isResetConfirmOpen, setIsResetConfirmOpen] = useState(false);
     const [perkOverlay, setPerkOverlay] = useState<{
@@ -21,7 +21,10 @@ export default function BoardPage() {
 
     const handlePerkClick = useCallback((team: Team, perk: keyof PerksState) => {
         setPerkOverlay({ perk, team });
-    }, []);
+        if (perk === 'fazaa') {
+            setActiveFazaaTeam(team);
+        }
+    }, [setActiveFazaaTeam]);
 
     const clearPerkOverlay = useCallback(() => setPerkOverlay(null), []);
 
@@ -86,7 +89,10 @@ export default function BoardPage() {
             <QuestionModal
                 isOpen={!!activeCell}
                 cell={activeCell}
-                onClose={() => setActiveCell(null)}
+                onClose={() => {
+                    clearActiveFazaaTeam();
+                    setActiveCell(null);
+                }}
             />
 
             {/* Reset Confirmation */}
