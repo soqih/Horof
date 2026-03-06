@@ -19,6 +19,7 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
     const [revealedWordCount, setRevealedWordCount] = useState(0);
     const [timerSeconds, setTimerSeconds] = useState<number | null>(null);
     const [showAnswer, setShowAnswer] = useState(false);
+    const [activeCellId, setActiveCellId] = useState<number | null>(null);
 
     const { captureCell, turn, activeFazaaTeam, usedQuestionIds, markQuestionUsed, clearActiveFazaaTeam } = useGameStore();
     const {
@@ -30,7 +31,16 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
     } = useQuestions();
 
     const allCategories = getAllCategories();
-    const mustPickCategory = activeFazaaTeam === turn;
+    const mustPickCategory = activeFazaaTeam !== null;
+
+    if (cell && cell.id !== activeCellId) {
+        setActiveCellId(cell.id);
+        setQuestion(null);
+        setSelectedCategory(RANDOM_LABEL);
+        setRevealedWordCount(0);
+        setTimerSeconds(null);
+        setShowAnswer(false);
+    }
 
     const loadQuestion = useCallback(
         (category?: string) => {
@@ -45,16 +55,13 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
 
     useEffect(() => {
         if (isOpen && cell && !loading) {
-            setSelectedCategory(RANDOM_LABEL);
-            setRevealedWordCount(0);
-            setTimerSeconds(null);
-            setShowAnswer(false);
-            if (mustPickCategory && allCategories.length > 0) {
-                setQuestion(null); // Wait for category pick
-            } else {
-                loadQuestion(); // Random by default
+            if (!(mustPickCategory && allCategories.length > 0)) {
+                if (!question) {
+                    loadQuestion(); // Random by default
+                }
             }
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isOpen, cell?.id, loading, mustPickCategory, allCategories.length]);
 
     useEffect(() => {
@@ -124,7 +131,7 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
             >
                 <div className="flex flex-col gap-6 text-center">
                     <p className="text-xl font-bold">
-                        الفريق {turn === 'red' ? 'الأحمر' : 'الأزرق'} استخدم فزعة صب - اختر التصنيف
+                        الفريق {activeFazaaTeam === 'red' ? 'الأحمر' : 'الأزرق'} استخدم فزعة صب - اختر التصنيف
                     </p>
                     <div className="flex flex-wrap justify-center gap-3 max-h-[60vh] overflow-y-auto">
                         {allCategories.map((cat) => {
@@ -228,8 +235,8 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
                     ) : (
                         <div
                             className={`text-6xl font-black border-4 border-black p-4 inline-block ${timerSeconds === 0
-                                    ? 'bg-[var(--color-neo-red)] text-white animate-bounce'
-                                    : 'bg-white'
+                                ? 'bg-[var(--color-neo-red)] text-white animate-bounce'
+                                : 'bg-white'
                                 }`}
                         >
                             00:0{timerSeconds}
