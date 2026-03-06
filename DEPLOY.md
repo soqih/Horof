@@ -6,7 +6,9 @@ Your app is configured for static export and GitHub Pages deployment.
 
 1. **Enable GitHub Pages** in your repo:
    - Go to **Settings** → **Pages**
-   - Under **Build and deployment** → **Source**, select **GitHub Actions**
+   - Under **Build and deployment** → **Source**, select **Deploy from a branch**
+   - Choose branch: **gh-pages** (or select it when it appears after first deploy)
+   - Folder: **/ (root)**
 
 2. **Push your code** to the `main` or `master` branch. The workflow will:
    - Build the app with the correct base path
