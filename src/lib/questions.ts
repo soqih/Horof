@@ -46,26 +46,10 @@ export async function loadQuestions(): Promise<Question[]> {
     const valid = (q: Question) =>
         q.question && q.answer && q.letter && q.category && q.id;
     try {
-        let batch1: Question[] = [];
-        let batch2: Question[] = [];
         const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
-        try {
-            const res1 = await fetch(`${base}/questions_batch_1.json`);
-            batch1 = (await res1.json()) as Question[];
-        } catch {
-            /* batch1 optional */
-        }
-        try {
-            const res2 = await fetch(`${base}/questions_batch_2.json`);
-            batch2 = (await res2.json()) as Question[];
-        } catch {
-            /* batch2 optional */
-        }
-        const batch2Keys = new Set(batch2.filter(valid).map((q) => `${q.question}|${q.answer}`));
-        const deduped1 = batch1.filter(
-            (q) => valid(q) && !batch2Keys.has(`${q.question}|${q.answer}`)
-        );
-        cachedQuestions = deduplicateByContent([...batch2.filter(valid), ...deduped1]);
+        const res = await fetch(`${base}/questions_batch_1.json`);
+        const questions = (await res.json()) as Question[];
+        cachedQuestions = deduplicateByContent(questions.filter(valid));
         return cachedQuestions.length > 0 ? cachedQuestions : FALLBACK_QUESTIONS;
     } catch {
         return FALLBACK_QUESTIONS;
