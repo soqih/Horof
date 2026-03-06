@@ -1,0 +1,4377 @@
+[
+  {
+    "id": "g1-1",
+    "letter": "آ",
+    "category": "جغرافيا",
+    "question": "أكبر قارة في العالم من حيث المساحة؟",
+    "answer": "آسيا"
+  },
+  {
+    "id": "g1-2",
+    "letter": "آ",
+    "category": "جغرافيا",
+    "question": "دولة أرخبيل في جنوب شرق آسيا؟",
+    "answer": "أندونيسيا"
+  },
+  {
+    "id": "g1-3",
+    "letter": "آ",
+    "category": "جغرافيا",
+    "question": "دولة في القوقاز عاصمتها يريفان؟",
+    "answer": "أرمينيا"
+  },
+  {
+    "id": "g1-4",
+    "letter": "آ",
+    "category": "جغرافيا",
+    "question": "دولة أفريقية عاصمتها أديس أبابا؟",
+    "answer": "إثيوبيا"
+  },
+  {
+    "id": "g1-5",
+    "letter": "آ",
+    "category": "جغرافيا",
+    "question": "جزيرة جليدية في شمال المحيط الأطلسي؟",
+    "answer": "أيسلندا"
+  },
+  {
+    "id": "g2-1",
+    "letter": "ب",
+    "category": "جغرافيا",
+    "question": "عاصمة العراق ومركز الحضارة العربية قديماً؟",
+    "answer": "بغداد"
+  },
+  {
+    "id": "g2-2",
+    "letter": "ب",
+    "category": "جغرافيا",
+    "question": "عاصمة لبنان؟",
+    "answer": "بيروت"
+  },
+  {
+    "id": "g2-3",
+    "letter": "ب",
+    "category": "جغرافيا",
+    "question": "دولة عربية في الخليج عاصمتها المنامة؟",
+    "answer": "البحرين"
+  },
+  {
+    "id": "g2-4",
+    "letter": "ب",
+    "category": "جغرافيا",
+    "question": "مدينة فلسطينية ساحلية؟",
+    "answer": "بيت لحم"
+  },
+  {
+    "id": "g2-5",
+    "letter": "ب",
+    "category": "جغرافيا",
+    "question": "مضيق يفصل آسيا عن أمريكا الشمالية؟",
+    "answer": "بيرنغ"
+  },
+  {
+    "id": "g3-1",
+    "letter": "ت",
+    "category": "جغرافيا",
+    "question": "دولة عربية في شمال إفريقيا عاصمتها تونس؟",
+    "answer": "تونس"
+  },
+  {
+    "id": "g3-2",
+    "letter": "ت",
+    "category": "جغرافيا",
+    "question": "مدينة مغربية على البحر؟",
+    "answer": "تطوان"
+  },
+  {
+    "id": "g3-3",
+    "letter": "ت",
+    "category": "جغرافيا",
+    "question": "منطقة في الصحراء الجزائرية؟",
+    "answer": "تندوف"
+  },
+  {
+    "id": "g3-4",
+    "letter": "ت",
+    "category": "جغرافيا",
+    "question": "مدينة سعودية قديمة؟",
+    "answer": "تيماء"
+  },
+  {
+    "id": "g3-5",
+    "letter": "ت",
+    "category": "جغرافيا",
+    "question": "مدينة يمنية؟",
+    "answer": "تعز"
+  },
+  {
+    "id": "g4-1",
+    "letter": "ث",
+    "category": "جغرافيا",
+    "question": "ما الذي يتساقط شتاءً بلون أبيض؟",
+    "answer": "ثلج"
+  },
+  {
+    "id": "g4-2",
+    "letter": "ث",
+    "category": "جغرافيا",
+    "question": "ممر جبلي ضيق؟",
+    "answer": "ثغرة"
+  },
+  {
+    "id": "g4-3",
+    "letter": "ث",
+    "category": "جغرافيا",
+    "question": "منطقة جبلية في اليمن؟",
+    "answer": "ثمر"
+  },
+  {
+    "id": "g4-4",
+    "letter": "ث",
+    "category": "جغرافيا",
+    "question": "ما يتجمد عند البرودة ويتساقط؟",
+    "answer": "ثلوج"
+  },
+  {
+    "id": "g4-5",
+    "letter": "ث",
+    "category": "جغرافيا",
+    "question": "منطقة في اليمن؟",
+    "answer": "ثورة"
+  },
+  {
+    "id": "g5-1",
+    "letter": "ج",
+    "category": "جغرافيا",
+    "question": "مدينة سعودية ميناء على البحر الأحمر؟",
+    "answer": "جدة"
+  },
+  {
+    "id": "g5-2",
+    "letter": "ج",
+    "category": "جغرافيا",
+    "question": "مدينة أردنية أثرية؟",
+    "answer": "جرش"
+  },
+  {
+    "id": "g5-3",
+    "letter": "ج",
+    "category": "جغرافيا",
+    "question": "مضيق بين إسبانيا والمغرب؟",
+    "answer": "جبل طارق"
+  },
+  {
+    "id": "g5-4",
+    "letter": "ج",
+    "category": "جغرافيا",
+    "question": "جبل في القدس؟",
+    "answer": "جبل الزيتون"
+  },
+  {
+    "id": "g5-5",
+    "letter": "ج",
+    "category": "جغرافيا",
+    "question": "منطقة في الحجاز؟",
+    "answer": "جازان"
+  },
+  {
+    "id": "g6-1",
+    "letter": "ح",
+    "category": "جغرافيا",
+    "question": "مدينة سورية قديمة اشتهرت بالصابون؟",
+    "answer": "حلب"
+  },
+  {
+    "id": "g6-2",
+    "letter": "ح",
+    "category": "جغرافيا",
+    "question": "مدينة مصرية قرب القاهرة؟",
+    "answer": "حلوان"
+  },
+  {
+    "id": "g6-3",
+    "letter": "ح",
+    "category": "جغرافيا",
+    "question": "قلعة أو حصن قديم؟",
+    "answer": "حصن"
+  },
+  {
+    "id": "g6-4",
+    "letter": "ح",
+    "category": "جغرافيا",
+    "question": "مدينة سورية قديمة؟",
+    "answer": "حمص"
+  },
+  {
+    "id": "g6-5",
+    "letter": "ح",
+    "category": "جغرافيا",
+    "question": "مدينة سورية على العاصي؟",
+    "answer": "حماة"
+  },
+  {
+    "id": "g7-1",
+    "letter": "خ",
+    "category": "جغرافيا",
+    "question": "خليج غني بالنفط بين شبه الجزيرة وإيران؟",
+    "answer": "خليج"
+  },
+  {
+    "id": "g7-2",
+    "letter": "خ",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية على الحدود الإيرانية؟",
+    "answer": "خانقين"
+  },
+  {
+    "id": "g7-3",
+    "letter": "خ",
+    "category": "جغرافيا",
+    "question": "منطقة في اليمن؟",
+    "answer": "خولان"
+  },
+  {
+    "id": "g7-4",
+    "letter": "خ",
+    "category": "جغرافيا",
+    "question": "ممر أو نزل قديم؟",
+    "answer": "خان"
+  },
+  {
+    "id": "g7-5",
+    "letter": "خ",
+    "category": "جغرافيا",
+    "question": "ميناء طبيعي؟",
+    "answer": "خور"
+  },
+  {
+    "id": "g8-1",
+    "letter": "د",
+    "category": "جغرافيا",
+    "question": "عاصمة قطر؟",
+    "answer": "الدوحة"
+  },
+  {
+    "id": "g8-2",
+    "letter": "د",
+    "category": "جغرافيا",
+    "question": "مدينة إماراتية؟",
+    "answer": "دبي"
+  },
+  {
+    "id": "g8-3",
+    "letter": "د",
+    "category": "جغرافيا",
+    "question": "مدينة سورية في الجنوب؟",
+    "answer": "درعا"
+  },
+  {
+    "id": "g8-4",
+    "letter": "د",
+    "category": "جغرافيا",
+    "question": "عاصمة سوريا؟",
+    "answer": "دمشق"
+  },
+  {
+    "id": "g8-5",
+    "letter": "د",
+    "category": "جغرافيا",
+    "question": "مدينة سعودية في الشرق؟",
+    "answer": "الدمام"
+  },
+  {
+    "id": "g9-1",
+    "letter": "ذ",
+    "category": "جغرافيا",
+    "question": "محافظة عراقية في الجنوب؟",
+    "answer": "ذي قار"
+  },
+  {
+    "id": "g9-2",
+    "letter": "ذ",
+    "category": "جغرافيا",
+    "question": "مدينة يمنية قديمة؟",
+    "answer": "ذمار"
+  },
+  {
+    "id": "g9-3",
+    "letter": "ذ",
+    "category": "جغرافيا",
+    "question": "معركة عربية قبل الإسلام؟",
+    "answer": "ذو قار"
+  },
+  {
+    "id": "g9-4",
+    "letter": "ذ",
+    "category": "جغرافيا",
+    "question": "منطقة في اليمن؟",
+    "answer": "ذيبين"
+  },
+  {
+    "id": "g9-5",
+    "letter": "ذ",
+    "category": "جغرافيا",
+    "question": "قبيلة؟",
+    "answer": "ذبيان"
+  },
+  {
+    "id": "g10-1",
+    "letter": "ر",
+    "category": "جغرافيا",
+    "question": "عاصمة المملكة العربية السعودية؟",
+    "answer": "رياض"
+  },
+  {
+    "id": "g10-2",
+    "letter": "ر",
+    "category": "جغرافيا",
+    "question": "أكبر دولة في العالم مساحة؟",
+    "answer": "روسيا"
+  },
+  {
+    "id": "g10-3",
+    "letter": "ر",
+    "category": "جغرافيا",
+    "question": "دولة في شرق أوروبا؟",
+    "answer": "رومانيا"
+  },
+  {
+    "id": "g10-4",
+    "letter": "ر",
+    "category": "جغرافيا",
+    "question": "دولة أفريقية؟",
+    "answer": "رواندا"
+  },
+  {
+    "id": "g10-5",
+    "letter": "ر",
+    "category": "جغرافيا",
+    "question": "مدينة روسية؟",
+    "answer": "روستوف"
+  },
+  {
+    "id": "g11-1",
+    "letter": "ز",
+    "category": "جغرافيا",
+    "question": "مدينة لبنانية في البقاع اشتهرت بالنبيذ؟",
+    "answer": "زحلة"
+  },
+  {
+    "id": "g11-2",
+    "letter": "ز",
+    "category": "جغرافيا",
+    "question": "كوكب له حلقات بارزة؟",
+    "answer": "زحل"
+  },
+  {
+    "id": "g11-3",
+    "letter": "ز",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية جنوب البصرة؟",
+    "answer": "الزبير"
+  },
+  {
+    "id": "g11-4",
+    "letter": "ز",
+    "category": "جغرافيا",
+    "question": "منطقة في شمال لبنان؟",
+    "answer": "زغرتا"
+  },
+  {
+    "id": "g11-5",
+    "letter": "ز",
+    "category": "جغرافيا",
+    "question": "جزيرة أفريقية؟",
+    "answer": "زنجبار"
+  },
+  {
+    "id": "g12-1",
+    "letter": "س",
+    "category": "جغرافيا",
+    "question": "دولة عربية عاصمتها دمشق؟",
+    "answer": "سوريا"
+  },
+  {
+    "id": "g12-2",
+    "letter": "س",
+    "category": "جغرافيا",
+    "question": "دولة جزيرة في آسيا؟",
+    "answer": "سنغافورة"
+  },
+  {
+    "id": "g12-3",
+    "letter": "س",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية كردية؟",
+    "answer": "سليمانية"
+  },
+  {
+    "id": "g12-4",
+    "letter": "س",
+    "category": "جغرافيا",
+    "question": "شبه جزيرة مصرية؟",
+    "answer": "سيناء"
+  },
+  {
+    "id": "g12-5",
+    "letter": "س",
+    "category": "جغرافيا",
+    "question": "عاصمة البوسنة؟",
+    "answer": "سراييفو"
+  },
+  {
+    "id": "g13-1",
+    "letter": "ش",
+    "category": "جغرافيا",
+    "question": "منطقة مصرية سياحية على البحر الأحمر؟",
+    "answer": "شرم الشيخ"
+  },
+  {
+    "id": "g13-2",
+    "letter": "ش",
+    "category": "جغرافيا",
+    "question": "مدينة يمنية أثرية؟",
+    "answer": "شبام"
+  },
+  {
+    "id": "g13-3",
+    "letter": "ش",
+    "category": "جغرافيا",
+    "question": "مدينة فلسطينية قديمة؟",
+    "answer": "شكيم"
+  },
+  {
+    "id": "g13-4",
+    "letter": "ش",
+    "category": "جغرافيا",
+    "question": "اتجاه البوصلة؟",
+    "answer": "شمال"
+  },
+  {
+    "id": "g13-5",
+    "letter": "ش",
+    "category": "جغرافيا",
+    "question": "منطقة في لبنان؟",
+    "answer": "شوف"
+  },
+  {
+    "id": "g14-1",
+    "letter": "ص",
+    "category": "جغرافيا",
+    "question": "مدينة لبنانية جنوبية ميناء فينيقي قديم؟",
+    "answer": "صيدا"
+  },
+  {
+    "id": "g14-2",
+    "letter": "ص",
+    "category": "جغرافيا",
+    "question": "مدينة فلسطينية قديمة؟",
+    "answer": "صفد"
+  },
+  {
+    "id": "g14-3",
+    "letter": "ص",
+    "category": "جغرافيا",
+    "question": "مدينة سورية؟",
+    "answer": "صافيتا"
+  },
+  {
+    "id": "g14-4",
+    "letter": "ص",
+    "category": "جغرافيا",
+    "question": "مدينة يمنية؟",
+    "answer": "صعدة"
+  },
+  {
+    "id": "g14-5",
+    "letter": "ص",
+    "category": "جغرافيا",
+    "question": "صحراء واسعة؟",
+    "answer": "صحراء"
+  },
+  {
+    "id": "g15-1",
+    "letter": "ط",
+    "category": "جغرافيا",
+    "question": "مدينة فلسطينية في الضفة الغربية؟",
+    "answer": "طوباس"
+  },
+  {
+    "id": "g15-2",
+    "letter": "ط",
+    "category": "جغرافيا",
+    "question": "جبل في سيناء؟",
+    "answer": "طور"
+  },
+  {
+    "id": "g15-3",
+    "letter": "ط",
+    "category": "جغرافيا",
+    "question": "مدينة تركية على البحر الأسود؟",
+    "answer": "طرابزون"
+  },
+  {
+    "id": "g15-4",
+    "letter": "ط",
+    "category": "جغرافيا",
+    "question": "مدينة مصرية؟",
+    "answer": "طنطا"
+  },
+  {
+    "id": "g15-5",
+    "letter": "ط",
+    "category": "جغرافيا",
+    "question": "مدينة ليبية؟",
+    "answer": "طبرق"
+  },
+  {
+    "id": "g16-1",
+    "letter": "ع",
+    "category": "جغرافيا",
+    "question": "عاصمة المملكة الأردنية الهاشمية؟",
+    "answer": "عمان"
+  },
+  {
+    "id": "g16-2",
+    "letter": "ع",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية جنوبية؟",
+    "answer": "العمارة"
+  },
+  {
+    "id": "g16-3",
+    "letter": "ع",
+    "category": "جغرافيا",
+    "question": "مدينة سعودية في القصيم؟",
+    "answer": "عنيزة"
+  },
+  {
+    "id": "g16-4",
+    "letter": "ع",
+    "category": "جغرافيا",
+    "question": "مدينة يمنية؟",
+    "answer": "عمران"
+  },
+  {
+    "id": "g16-5",
+    "letter": "ع",
+    "category": "جغرافيا",
+    "question": "مدينة فلسطينية ساحلية؟",
+    "answer": "عسقلان"
+  },
+  {
+    "id": "g17-1",
+    "letter": "ف",
+    "category": "جغرافيا",
+    "question": "دولة عربية أرض الأنبياء؟",
+    "answer": "فلسطين"
+  },
+  {
+    "id": "g17-2",
+    "letter": "ف",
+    "category": "جغرافيا",
+    "question": "مدينة مغربية قديمة؟",
+    "answer": "فاس"
+  },
+  {
+    "id": "g17-3",
+    "letter": "ف",
+    "category": "جغرافيا",
+    "question": "مدينة لبنانية؟",
+    "answer": "فاريا"
+  },
+  {
+    "id": "g17-4",
+    "letter": "ف",
+    "category": "جغرافيا",
+    "question": "دولة شمال أوروبا؟",
+    "answer": "فنلندا"
+  },
+  {
+    "id": "g17-5",
+    "letter": "ف",
+    "category": "جغرافيا",
+    "question": "دولة في جنوب شرق آسيا؟",
+    "answer": "فيتنام"
+  },
+  {
+    "id": "g18-1",
+    "letter": "ق",
+    "category": "جغرافيا",
+    "question": "عاصمة مصر وأكبر مدينة عربية؟",
+    "answer": "القاهرة"
+  },
+  {
+    "id": "g18-2",
+    "letter": "ق",
+    "category": "جغرافيا",
+    "question": "مدينة لبنانية؟",
+    "answer": "قاديشا"
+  },
+  {
+    "id": "g18-3",
+    "letter": "ق",
+    "category": "جغرافيا",
+    "question": "منطقة في فلسطين؟",
+    "answer": "قلقيلية"
+  },
+  {
+    "id": "g18-4",
+    "letter": "ق",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية؟",
+    "answer": "القادسية"
+  },
+  {
+    "id": "g18-5",
+    "letter": "ق",
+    "category": "جغرافيا",
+    "question": "قلعة أثرية؟",
+    "answer": "قلعة"
+  },
+  {
+    "id": "g19-1",
+    "letter": "ك",
+    "category": "جغرافيا",
+    "question": "دولة خليجية عاصمتها الكويت؟",
+    "answer": "الكويت"
+  },
+  {
+    "id": "g19-2",
+    "letter": "ك",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية نفطية؟",
+    "answer": "كركوك"
+  },
+  {
+    "id": "g19-3",
+    "letter": "ك",
+    "category": "جغرافيا",
+    "question": "مدينة أردنية؟",
+    "answer": "الكرك"
+  },
+  {
+    "id": "g19-4",
+    "letter": "ك",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية مقدسة؟",
+    "answer": "كربلاء"
+  },
+  {
+    "id": "g19-5",
+    "letter": "ك",
+    "category": "جغرافيا",
+    "question": "دولة أفريقية؟",
+    "answer": "كينيا"
+  },
+  {
+    "id": "g20-1",
+    "letter": "ل",
+    "category": "جغرافيا",
+    "question": "دولة عربية عاصمتها بيروت؟",
+    "answer": "لبنان"
+  },
+  {
+    "id": "g20-2",
+    "letter": "ل",
+    "category": "جغرافيا",
+    "question": "دولة في شمال أفريقيا؟",
+    "answer": "ليبيا"
+  },
+  {
+    "id": "g20-3",
+    "letter": "ل",
+    "category": "جغرافيا",
+    "question": "مدينة لبنانية ساحلية؟",
+    "answer": "اللاذقية"
+  },
+  {
+    "id": "g20-4",
+    "letter": "ل",
+    "category": "جغرافيا",
+    "question": "عاصمة بريطانيا؟",
+    "answer": "لندن"
+  },
+  {
+    "id": "g20-5",
+    "letter": "ل",
+    "category": "جغرافيا",
+    "question": "مدينة قبرصية؟",
+    "answer": "لارنكا"
+  },
+  {
+    "id": "g21-1",
+    "letter": "م",
+    "category": "جغرافيا",
+    "question": "دولة عربية في شمال أفريقيا عاصمتها الرباط؟",
+    "answer": "المغرب"
+  },
+  {
+    "id": "g21-2",
+    "letter": "م",
+    "category": "جغرافيا",
+    "question": "أقدس مدينة للمسلمين؟",
+    "answer": "مكة"
+  },
+  {
+    "id": "g21-3",
+    "letter": "م",
+    "category": "جغرافيا",
+    "question": "عاصمة مصر الفرعونية قديماً؟",
+    "answer": "منف"
+  },
+  {
+    "id": "g21-4",
+    "letter": "م",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية شمالية؟",
+    "answer": "الموصل"
+  },
+  {
+    "id": "g21-5",
+    "letter": "م",
+    "category": "جغرافيا",
+    "question": "مدينة مغربية سياحية؟",
+    "answer": "مراكش"
+  },
+  {
+    "id": "g22-1",
+    "letter": "ن",
+    "category": "جغرافيا",
+    "question": "أطول نهر في العالم؟",
+    "answer": "النيل"
+  },
+  {
+    "id": "g22-2",
+    "letter": "ن",
+    "category": "جغرافيا",
+    "question": "مدينة يابانية؟",
+    "answer": "ناغويا"
+  },
+  {
+    "id": "g22-3",
+    "letter": "ن",
+    "category": "جغرافيا",
+    "question": "عاصمة النيجر؟",
+    "answer": "نيامي"
+  },
+  {
+    "id": "g22-4",
+    "letter": "ن",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية؟",
+    "answer": "الناصرية"
+  },
+  {
+    "id": "g22-5",
+    "letter": "ن",
+    "category": "جغرافيا",
+    "question": "مدينة سعودية؟",
+    "answer": "نجران"
+  },
+  {
+    "id": "g23-1",
+    "letter": "هـ",
+    "category": "جغرافيا",
+    "question": "أكبر محيط في العالم؟",
+    "answer": "الهادي"
+  },
+  {
+    "id": "g23-2",
+    "letter": "هـ",
+    "category": "جغرافيا",
+    "question": "مدينة سعودية؟",
+    "answer": "الهدا"
+  },
+  {
+    "id": "g23-3",
+    "letter": "هـ",
+    "category": "جغرافيا",
+    "question": "منطقة في اليمن؟",
+    "answer": "هجر"
+  },
+  {
+    "id": "g23-4",
+    "letter": "هـ",
+    "category": "جغرافيا",
+    "question": "مدينة مصرية؟",
+    "answer": "هليوبوليس"
+  },
+  {
+    "id": "g23-5",
+    "letter": "هـ",
+    "category": "جغرافيا",
+    "question": "منطقة جبلية؟",
+    "answer": "هضبة"
+  },
+  {
+    "id": "g24-1",
+    "letter": "و",
+    "category": "جغرافيا",
+    "question": "مجرى مائي بين الجبال؟",
+    "answer": "وادي"
+  },
+  {
+    "id": "g24-2",
+    "letter": "و",
+    "category": "جغرافيا",
+    "question": "مدينة عراقية أثرية؟",
+    "answer": "الوركاء"
+  },
+  {
+    "id": "g24-3",
+    "letter": "و",
+    "category": "جغرافيا",
+    "question": "منطقة في نجد؟",
+    "answer": "الوشم"
+  },
+  {
+    "id": "g24-4",
+    "letter": "و",
+    "category": "جغرافيا",
+    "question": "منطقة في اليمن؟",
+    "answer": "وادي حضرموت"
+  },
+  {
+    "id": "g24-5",
+    "letter": "و",
+    "category": "جغرافيا",
+    "question": "ممر جبلي؟",
+    "answer": "وادي الرمة"
+  },
+  {
+    "id": "g25-1",
+    "letter": "ي",
+    "category": "جغرافيا",
+    "question": "دولة عربية عاصمتها صنعاء؟",
+    "answer": "اليمن"
+  },
+  {
+    "id": "g25-2",
+    "letter": "ي",
+    "category": "جغرافيا",
+    "question": "مدينة فلسطينية ساحلية؟",
+    "answer": "يافا"
+  },
+  {
+    "id": "g25-3",
+    "letter": "ي",
+    "category": "جغرافيا",
+    "question": "الاسم القديم للمدينة المنورة؟",
+    "answer": "يثرب"
+  },
+  {
+    "id": "g25-4",
+    "letter": "ي",
+    "category": "جغرافيا",
+    "question": "مدينة إنجليزية قديمة؟",
+    "answer": "يورك"
+  },
+  {
+    "id": "g25-5",
+    "letter": "ي",
+    "category": "جغرافيا",
+    "question": "منطقة في اليمن؟",
+    "answer": "يام"
+  },
+  {
+    "id": "a1-1",
+    "letter": "آ",
+    "category": "حيوانات",
+    "question": "ملك الغابة؟",
+    "answer": "أسد"
+  },
+  {
+    "id": "a1-2",
+    "letter": "آ",
+    "category": "حيوانات",
+    "question": "حيوان بحري له ثماني أذرع؟",
+    "answer": "أخطبوط"
+  },
+  {
+    "id": "a1-3",
+    "letter": "آ",
+    "category": "حيوانات",
+    "question": "حيوان زاحف سام؟",
+    "answer": "أفعى"
+  },
+  {
+    "id": "a1-4",
+    "letter": "آ",
+    "category": "حيوانات",
+    "question": "طائر مائي أبيض؟",
+    "answer": "إوزة"
+  },
+  {
+    "id": "a1-5",
+    "letter": "آ",
+    "category": "حيوانات",
+    "question": "قشريات بحرية صغيرة؟",
+    "answer": "أربيان"
+  },
+  {
+    "id": "a2-1",
+    "letter": "ب",
+    "category": "حيوانات",
+    "question": "طائر ملون يتكلم ويقلد؟",
+    "answer": "ببغاء"
+  },
+  {
+    "id": "a2-2",
+    "letter": "ب",
+    "category": "حيوانات",
+    "question": "حيوان له سنام ويعيش في الصحراء؟",
+    "answer": "بعير"
+  },
+  {
+    "id": "a2-3",
+    "letter": "ب",
+    "category": "حيوانات",
+    "question": "طائر صغير يغرد؟",
+    "answer": "بلبل"
+  },
+  {
+    "id": "a2-4",
+    "letter": "ب",
+    "category": "حيوانات",
+    "question": "حيوان صغير في الحقول؟",
+    "answer": "برغوث"
+  },
+  {
+    "id": "a2-5",
+    "letter": "ب",
+    "category": "حيوانات",
+    "question": "حيوان يعطي الحليب؟",
+    "answer": "بقرة"
+  },
+  {
+    "id": "a3-1",
+    "letter": "ت",
+    "category": "حيوانات",
+    "question": "زواحف ضخمة تعيش في المستنقعات؟",
+    "answer": "تمساح"
+  },
+  {
+    "id": "a3-2",
+    "letter": "ت",
+    "category": "حيوانات",
+    "question": "ذكر الماعز؟",
+    "answer": "تيس"
+  },
+  {
+    "id": "a3-3",
+    "letter": "ت",
+    "category": "حيوانات",
+    "question": "سمكة بحرية؟",
+    "answer": "تونة"
+  },
+  {
+    "id": "a3-4",
+    "letter": "ت",
+    "category": "حيوانات",
+    "question": "حيوان بحري كبير؟",
+    "answer": "تنين البحر"
+  },
+  {
+    "id": "a3-5",
+    "letter": "ت",
+    "category": "حيوانات",
+    "question": "طائر نهري؟",
+    "answer": "تم"
+  },
+  {
+    "id": "a4-1",
+    "letter": "ث",
+    "category": "حيوانات",
+    "question": "حيوان ماكر له ذيل كثيف؟",
+    "answer": "ثعلب"
+  },
+  {
+    "id": "a4-2",
+    "letter": "ث",
+    "category": "حيوانات",
+    "question": "حيوان بحري ضخم؟",
+    "answer": "ثعبان البحر"
+  },
+  {
+    "id": "a4-3",
+    "letter": "ث",
+    "category": "حيوانات",
+    "question": "طائر نهري؟",
+    "answer": "ثمري"
+  },
+  {
+    "id": "a4-4",
+    "letter": "ث",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "ثديي"
+  },
+  {
+    "id": "a4-5",
+    "letter": "ث",
+    "category": "حيوانات",
+    "question": "حيوان بري؟",
+    "answer": "ثور"
+  },
+  {
+    "id": "a5-1",
+    "letter": "ج",
+    "category": "حيوانات",
+    "question": "سفينة الصحراء؟",
+    "answer": "جمل"
+  },
+  {
+    "id": "a5-2",
+    "letter": "ج",
+    "category": "حيوانات",
+    "question": "قشريات بحرية؟",
+    "answer": "جراد البحر"
+  },
+  {
+    "id": "a5-3",
+    "letter": "ج",
+    "category": "حيوانات",
+    "question": "حيوان صغير يشبه الفأر؟",
+    "answer": "جرذ"
+  },
+  {
+    "id": "a5-4",
+    "letter": "ج",
+    "category": "حيوانات",
+    "question": "حيوان بحري صغير؟",
+    "answer": "جمبري"
+  },
+  {
+    "id": "a5-5",
+    "letter": "ج",
+    "category": "حيوانات",
+    "question": "صغير الكلب؟",
+    "answer": "جرو"
+  },
+  {
+    "id": "a6-1",
+    "letter": "ح",
+    "category": "حيوانات",
+    "question": "أكبر حيوان بحري ثديي؟",
+    "answer": "حوت"
+  },
+  {
+    "id": "a6-2",
+    "letter": "ح",
+    "category": "حيوانات",
+    "question": "حيوان صغير في الحقول؟",
+    "answer": "حشرة"
+  },
+  {
+    "id": "a6-3",
+    "letter": "ح",
+    "category": "حيوانات",
+    "question": "طائر صغير؟",
+    "answer": "حمامة"
+  },
+  {
+    "id": "a6-4",
+    "letter": "ح",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "حبار"
+  },
+  {
+    "id": "a6-5",
+    "letter": "ح",
+    "category": "حيوانات",
+    "question": "حيوان صحراوي؟",
+    "answer": "حرباء"
+  },
+  {
+    "id": "a7-1",
+    "letter": "خ",
+    "category": "حيوانات",
+    "question": "حيوان بري له أنف مسطح؟",
+    "answer": "خنزير"
+  },
+  {
+    "id": "a7-2",
+    "letter": "خ",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "خنفساء"
+  },
+  {
+    "id": "a7-3",
+    "letter": "خ",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "خضيري"
+  },
+  {
+    "id": "a7-4",
+    "letter": "خ",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "خيار البحر"
+  },
+  {
+    "id": "a7-5",
+    "letter": "خ",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "خلد"
+  },
+  {
+    "id": "a8-1",
+    "letter": "د",
+    "category": "حيوانات",
+    "question": "حيوان بحري ذكي وودود؟",
+    "answer": "دلفين"
+  },
+  {
+    "id": "a8-2",
+    "letter": "د",
+    "category": "حيوانات",
+    "question": "حيوان بري؟",
+    "answer": "دب"
+  },
+  {
+    "id": "a8-3",
+    "letter": "د",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "دودة"
+  },
+  {
+    "id": "a8-4",
+    "letter": "د",
+    "category": "حيوانات",
+    "question": "طائر منزلي؟",
+    "answer": "ديك"
+  },
+  {
+    "id": "a8-5",
+    "letter": "د",
+    "category": "حيوانات",
+    "question": "طائر بري؟",
+    "answer": "دراج"
+  },
+  {
+    "id": "a9-1",
+    "letter": "ذ",
+    "category": "حيوانات",
+    "question": "حشرة صغيرة تطن؟",
+    "answer": "ذبابة"
+  },
+  {
+    "id": "a9-2",
+    "letter": "ذ",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "ذباب"
+  },
+  {
+    "id": "a9-3",
+    "letter": "ذ",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "ذعرة"
+  },
+  {
+    "id": "a9-4",
+    "letter": "ذ",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "ذئب"
+  },
+  {
+    "id": "a9-5",
+    "letter": "ذ",
+    "category": "حيوانات",
+    "question": "حشرة؟",
+    "answer": "ذباب النار"
+  },
+  {
+    "id": "a10-1",
+    "letter": "ر",
+    "category": "حيوانات",
+    "question": "حيوان له قرون يعيش في الثلج؟",
+    "answer": "رنة"
+  },
+  {
+    "id": "a10-2",
+    "letter": "ر",
+    "category": "حيوانات",
+    "question": "طائر صغير؟",
+    "answer": "روز"
+  },
+  {
+    "id": "a10-3",
+    "letter": "ر",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "راي"
+  },
+  {
+    "id": "a10-4",
+    "letter": "ر",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "رئيس"
+  },
+  {
+    "id": "a10-5",
+    "letter": "ر",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "رخمة"
+  },
+  {
+    "id": "a11-1",
+    "letter": "ز",
+    "category": "حيوانات",
+    "question": "حيوان طويل الرقبة وأطول حيوان بري؟",
+    "answer": "زرافة"
+  },
+  {
+    "id": "a11-2",
+    "letter": "ز",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "زقزاق"
+  },
+  {
+    "id": "a11-3",
+    "letter": "ز",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "زرزور"
+  },
+  {
+    "id": "a11-4",
+    "letter": "ز",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "زبابة"
+  },
+  {
+    "id": "a11-5",
+    "letter": "ز",
+    "category": "حيوانات",
+    "question": "سمكة؟",
+    "answer": "زرد"
+  },
+  {
+    "id": "a12-1",
+    "letter": "س",
+    "category": "حيوانات",
+    "question": "حيوان يقفز ويخزن الجوز؟",
+    "answer": "سنجاب"
+  },
+  {
+    "id": "a12-2",
+    "letter": "س",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "سمكة"
+  },
+  {
+    "id": "a12-3",
+    "letter": "س",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "سنونو"
+  },
+  {
+    "id": "a12-4",
+    "letter": "س",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "سحلية"
+  },
+  {
+    "id": "a12-5",
+    "letter": "س",
+    "category": "حيوانات",
+    "question": "حيوان بري؟",
+    "answer": "سلحفاة"
+  },
+  {
+    "id": "a13-1",
+    "letter": "ش",
+    "category": "حيوانات",
+    "question": "قرد كبير أذكى القردة؟",
+    "answer": "شمبانزي"
+  },
+  {
+    "id": "a13-2",
+    "letter": "ش",
+    "category": "حيوانات",
+    "question": "طائر جارح؟",
+    "answer": "شاهين"
+  },
+  {
+    "id": "a13-3",
+    "letter": "ش",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "شعاب مرجانية"
+  },
+  {
+    "id": "a13-4",
+    "letter": "ش",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "شامة"
+  },
+  {
+    "id": "a13-5",
+    "letter": "ش",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "شحرور"
+  },
+  {
+    "id": "a14-1",
+    "letter": "ص",
+    "category": "حيوانات",
+    "question": "طائر جارح حاد البصر؟",
+    "answer": "صقر"
+  },
+  {
+    "id": "a14-2",
+    "letter": "ص",
+    "category": "حيوانات",
+    "question": "غلاف المحار؟",
+    "answer": "صدفة"
+  },
+  {
+    "id": "a14-3",
+    "letter": "ص",
+    "category": "حيوانات",
+    "question": "حشرة بنية في المنازل؟",
+    "answer": "صرصور"
+  },
+  {
+    "id": "a14-4",
+    "letter": "ص",
+    "category": "حيوانات",
+    "question": "طائر صغير؟",
+    "answer": "صعوة"
+  },
+  {
+    "id": "a14-5",
+    "letter": "ص",
+    "category": "حيوانات",
+    "question": "طائر مغرد؟",
+    "answer": "صرد"
+  },
+  {
+    "id": "a15-1",
+    "letter": "ط",
+    "category": "حيوانات",
+    "question": "طائر ملون له ذيل جميل؟",
+    "answer": "طاووس"
+  },
+  {
+    "id": "a15-2",
+    "letter": "ط",
+    "category": "حيوانات",
+    "question": "حيوان سريع؟",
+    "answer": "طائر"
+  },
+  {
+    "id": "a15-3",
+    "letter": "ط",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "طنان"
+  },
+  {
+    "id": "a15-4",
+    "letter": "ط",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "طائر الجنة"
+  },
+  {
+    "id": "a15-5",
+    "letter": "ط",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "طيهوج"
+  },
+  {
+    "id": "a16-1",
+    "letter": "ع",
+    "category": "حيوانات",
+    "question": "طائر صغير يغرد؟",
+    "answer": "عصفور"
+  },
+  {
+    "id": "a16-2",
+    "letter": "ع",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "عنكبوت"
+  },
+  {
+    "id": "a16-3",
+    "letter": "ع",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "عقرب"
+  },
+  {
+    "id": "a16-4",
+    "letter": "ع",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "عقاب"
+  },
+  {
+    "id": "a16-5",
+    "letter": "ع",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "عجل"
+  },
+  {
+    "id": "a17-1",
+    "letter": "ف",
+    "category": "حيوانات",
+    "question": "أسرع حيوان بري مرقط؟",
+    "answer": "فهد"
+  },
+  {
+    "id": "a17-2",
+    "letter": "ف",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "فرس البحر"
+  },
+  {
+    "id": "a17-3",
+    "letter": "ف",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "فاختة"
+  },
+  {
+    "id": "a17-4",
+    "letter": "ف",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "فأر"
+  },
+  {
+    "id": "a17-5",
+    "letter": "ف",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "فراشة"
+  },
+  {
+    "id": "a18-1",
+    "letter": "ق",
+    "category": "حيوانات",
+    "question": "سمك مفترس له أسنان حادة؟",
+    "answer": "قرش"
+  },
+  {
+    "id": "a18-2",
+    "letter": "ق",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "قندس"
+  },
+  {
+    "id": "a18-3",
+    "letter": "ق",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "قطا"
+  },
+  {
+    "id": "a18-4",
+    "letter": "ق",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "قرد"
+  },
+  {
+    "id": "a18-5",
+    "letter": "ق",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "قنفذ البحر"
+  },
+  {
+    "id": "a19-1",
+    "letter": "ك",
+    "category": "حيوانات",
+    "question": "أفضل صديق للإنسان؟",
+    "answer": "كلب"
+  },
+  {
+    "id": "a19-2",
+    "letter": "ك",
+    "category": "حيوانات",
+    "question": "حيوان استرالي يقفز؟",
+    "answer": "كنغر"
+  },
+  {
+    "id": "a19-3",
+    "letter": "ك",
+    "category": "حيوانات",
+    "question": "طائر نهري؟",
+    "answer": "كروان"
+  },
+  {
+    "id": "a19-4",
+    "letter": "ك",
+    "category": "حيوانات",
+    "question": "حيوان بحري قشري؟",
+    "answer": "كركند"
+  },
+  {
+    "id": "a19-5",
+    "letter": "ك",
+    "category": "حيوانات",
+    "question": "طائر جارح؟",
+    "answer": "كندور"
+  },
+  {
+    "id": "a20-1",
+    "letter": "ل",
+    "category": "حيوانات",
+    "question": "طائر طويل الساقين أبيض؟",
+    "answer": "لقلق"
+  },
+  {
+    "id": "a20-2",
+    "letter": "ل",
+    "category": "حيوانات",
+    "question": "سمكة بحرية مسطحة؟",
+    "answer": "لخمة"
+  },
+  {
+    "id": "a20-3",
+    "letter": "ل",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "لقمة"
+  },
+  {
+    "id": "a20-4",
+    "letter": "ل",
+    "category": "حيوانات",
+    "question": "قرد ليلي؟",
+    "answer": "لمور"
+  },
+  {
+    "id": "a20-5",
+    "letter": "ل",
+    "category": "حيوانات",
+    "question": "حيوان استوائي؟",
+    "answer": "ليمور"
+  },
+  {
+    "id": "a21-1",
+    "letter": "م",
+    "category": "حيوانات",
+    "question": "حيوان يعطي الحليب ويعيش في الجبال؟",
+    "answer": "ماعز"
+  },
+  {
+    "id": "a21-2",
+    "letter": "م",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "مرجان"
+  },
+  {
+    "id": "a21-3",
+    "letter": "م",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "مينا"
+  },
+  {
+    "id": "a21-4",
+    "letter": "م",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "مور"
+  },
+  {
+    "id": "a21-5",
+    "letter": "م",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "مهر"
+  },
+  {
+    "id": "a22-1",
+    "letter": "ن",
+    "category": "حيوانات",
+    "question": "حشرة تنتج العسل؟",
+    "answer": "نحلة"
+  },
+  {
+    "id": "a22-2",
+    "letter": "ن",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "نمر البحر"
+  },
+  {
+    "id": "a22-3",
+    "letter": "ن",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "نعامة"
+  },
+  {
+    "id": "a22-4",
+    "letter": "ن",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "نمس"
+  },
+  {
+    "id": "a22-5",
+    "letter": "ن",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "نمر"
+  },
+  {
+    "id": "a23-1",
+    "letter": "هـ",
+    "category": "حيوانات",
+    "question": "حيوان أليف صغير يشبه الفأر؟",
+    "answer": "هامستر"
+  },
+  {
+    "id": "a23-2",
+    "letter": "هـ",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "هيرينغ"
+  },
+  {
+    "id": "a23-3",
+    "letter": "هـ",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "هدهد"
+  },
+  {
+    "id": "a23-4",
+    "letter": "هـ",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "همستر"
+  },
+  {
+    "id": "a23-5",
+    "letter": "هـ",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "هر"
+  },
+  {
+    "id": "a24-1",
+    "letter": "و",
+    "category": "حيوانات",
+    "question": "حيوان جبلي يشبه الماعز؟",
+    "answer": "وعل"
+  },
+  {
+    "id": "a24-2",
+    "letter": "و",
+    "category": "حيوانات",
+    "question": "حيوان بحري؟",
+    "answer": "وحل"
+  },
+  {
+    "id": "a24-3",
+    "letter": "و",
+    "category": "حيوانات",
+    "question": "طائر؟",
+    "answer": "وروار"
+  },
+  {
+    "id": "a24-4",
+    "letter": "و",
+    "category": "حيوانات",
+    "question": "حيوان صغير؟",
+    "answer": "وبر"
+  },
+  {
+    "id": "a24-5",
+    "letter": "و",
+    "category": "حيوانات",
+    "question": "حيوان؟",
+    "answer": "ولب"
+  },
+  {
+    "id": "a25-1",
+    "letter": "ي",
+    "category": "حيوانات",
+    "question": "طائر رمادي يغرد في المدن؟",
+    "answer": "يمامة"
+  },
+  {
+    "id": "a25-2",
+    "letter": "ي",
+    "category": "حيوانات",
+    "question": "طائر صغير؟",
+    "answer": "يمام"
+  },
+  {
+    "id": "a25-3",
+    "letter": "ي",
+    "category": "حيوانات",
+    "question": "مرحلة قبل الحشرة الكاملة؟",
+    "answer": "يرقة"
+  },
+  {
+    "id": "a25-4",
+    "letter": "ي",
+    "category": "حيوانات",
+    "question": "حشرة طائرة رفيعة؟",
+    "answer": "يعسوب"
+  },
+  {
+    "id": "a25-5",
+    "letter": "ي",
+    "category": "حيوانات",
+    "question": "قارض صحراوي يقفز؟",
+    "answer": "يربوع"
+  },
+  {
+    "id": "f1-1",
+    "letter": "آ",
+    "category": "طعام",
+    "question": "فاكهة استوائية خضراء كريمية؟",
+    "answer": "أفوكادو"
+  },
+  {
+    "id": "f1-2",
+    "letter": "آ",
+    "category": "طعام",
+    "question": "حبوب بيضاء للأرز؟",
+    "answer": "أرز"
+  },
+  {
+    "id": "f1-3",
+    "letter": "آ",
+    "category": "طعام",
+    "question": "فاكهة استوائية صفراء؟",
+    "answer": "أناناس"
+  },
+  {
+    "id": "f1-4",
+    "letter": "آ",
+    "category": "طعام",
+    "question": "فاكهة خضراء أو صفراء؟",
+    "answer": "إجاص"
+  },
+  {
+    "id": "f1-5",
+    "letter": "آ",
+    "category": "طعام",
+    "question": "نباتات عطرية للطبخ؟",
+    "answer": "أعشاب"
+  },
+  {
+    "id": "f2-1",
+    "letter": "ب",
+    "category": "طعام",
+    "question": "فاكهة صيفية خضراء وحمراء؟",
+    "answer": "بطيخ"
+  },
+  {
+    "id": "f2-2",
+    "letter": "ب",
+    "category": "طعام",
+    "question": "خضار يبكي من يقطعه؟",
+    "answer": "بصل"
+  },
+  {
+    "id": "f2-3",
+    "letter": "ب",
+    "category": "طعام",
+    "question": "حبوب للخبز والطبخ؟",
+    "answer": "برغل"
+  },
+  {
+    "id": "f2-4",
+    "letter": "ب",
+    "category": "طعام",
+    "question": "حلوى عربية بالفستق؟",
+    "answer": "بقلاوة"
+  },
+  {
+    "id": "f2-5",
+    "letter": "ب",
+    "category": "طعام",
+    "question": "فاكهة مجففة؟",
+    "answer": "برقوق"
+  },
+  {
+    "id": "f3-1",
+    "letter": "ت",
+    "category": "طعام",
+    "question": "فاكهة مجففة حلوة من الشام؟",
+    "answer": "تين"
+  },
+  {
+    "id": "f3-2",
+    "letter": "ت",
+    "category": "طعام",
+    "question": "فاكهة النخيل؟",
+    "answer": "تمر"
+  },
+  {
+    "id": "f3-3",
+    "letter": "ت",
+    "category": "طعام",
+    "question": "فاكهة حمراء صغيرة؟",
+    "answer": "توت"
+  },
+  {
+    "id": "f3-4",
+    "letter": "ت",
+    "category": "طعام",
+    "question": "فاكهة بنية مجففة؟",
+    "answer": "تمرة"
+  },
+  {
+    "id": "f3-5",
+    "letter": "ت",
+    "category": "طعام",
+    "question": "بهار للطبخ؟",
+    "answer": "تمر هندي"
+  },
+  {
+    "id": "f4-1",
+    "letter": "ث",
+    "category": "طعام",
+    "question": "خضار أبيض عطري للطبخ؟",
+    "answer": "ثوم"
+  },
+  {
+    "id": "f4-2",
+    "letter": "ث",
+    "category": "طعام",
+    "question": "ما ينتجه الشجر؟",
+    "answer": "ثمر"
+  },
+  {
+    "id": "f4-3",
+    "letter": "ث",
+    "category": "طعام",
+    "question": "طعام عربي قديم؟",
+    "answer": "ثريد"
+  },
+  {
+    "id": "f4-4",
+    "letter": "ث",
+    "category": "طعام",
+    "question": "صلصة ثوم؟",
+    "answer": "ثومية"
+  },
+  {
+    "id": "f4-5",
+    "letter": "ث",
+    "category": "طعام",
+    "question": "ثمار الشجر؟",
+    "answer": "ثمار"
+  },
+  {
+    "id": "f5-1",
+    "letter": "ج",
+    "category": "طعام",
+    "question": "خضار برتقالي حلو؟",
+    "answer": "جزر"
+  },
+  {
+    "id": "f5-2",
+    "letter": "ج",
+    "category": "طعام",
+    "question": "فاكهة استوائية؟",
+    "answer": "جوافة"
+  },
+  {
+    "id": "f5-3",
+    "letter": "ج",
+    "category": "طعام",
+    "question": "شراب بارد؟",
+    "answer": "جلاب"
+  },
+  {
+    "id": "f5-4",
+    "letter": "ج",
+    "category": "طعام",
+    "question": "بهار حار؟",
+    "answer": "جنزبيل"
+  },
+  {
+    "id": "f5-5",
+    "letter": "ج",
+    "category": "طعام",
+    "question": "حلوى هلامية؟",
+    "answer": "جلي"
+  },
+  {
+    "id": "f6-1",
+    "letter": "ح",
+    "category": "طعام",
+    "question": "بقوليات بنية للفتة والحمص؟",
+    "answer": "حمص"
+  },
+  {
+    "id": "f6-2",
+    "letter": "ح",
+    "category": "طعام",
+    "question": "حبوب عطرية؟",
+    "answer": "حلبة"
+  },
+  {
+    "id": "f6-3",
+    "letter": "ح",
+    "category": "طعام",
+    "question": "فاكهة صيفية؟",
+    "answer": "حبحب"
+  },
+  {
+    "id": "f6-4",
+    "letter": "ح",
+    "category": "طعام",
+    "question": "عشبة عطرية؟",
+    "answer": "حبق"
+  },
+  {
+    "id": "f6-5",
+    "letter": "ح",
+    "category": "طعام",
+    "question": "سائل أبيض من البقر؟",
+    "answer": "حليب"
+  },
+  {
+    "id": "f7-1",
+    "letter": "خ",
+    "category": "طعام",
+    "question": "خضار أخضر منعش للسلطة؟",
+    "answer": "خيار"
+  },
+  {
+    "id": "f7-2",
+    "letter": "خ",
+    "category": "طعام",
+    "question": "طعام من الدقيق؟",
+    "answer": "خبز"
+  },
+  {
+    "id": "f7-3",
+    "letter": "خ",
+    "category": "طعام",
+    "question": "فاكهة صيفية؟",
+    "answer": "خوخ"
+  },
+  {
+    "id": "f7-4",
+    "letter": "خ",
+    "category": "طعام",
+    "question": "عشبة برية؟",
+    "answer": "خبيزة"
+  },
+  {
+    "id": "f7-5",
+    "letter": "خ",
+    "category": "طعام",
+    "question": "بهار؟",
+    "answer": "خردل"
+  },
+  {
+    "id": "f8-1",
+    "letter": "د",
+    "category": "طعام",
+    "question": "فاكهة صيفية وردية ذات نواة؟",
+    "answer": "دراق"
+  },
+  {
+    "id": "f8-2",
+    "letter": "د",
+    "category": "طعام",
+    "question": "مسحوق الحبوب للخبز؟",
+    "answer": "دقيق"
+  },
+  {
+    "id": "f8-3",
+    "letter": "د",
+    "category": "طعام",
+    "question": "فاكهة استوائية ذات رائحة؟",
+    "answer": "دوريان"
+  },
+  {
+    "id": "f8-4",
+    "letter": "د",
+    "category": "طعام",
+    "question": "حلوى دائرية مقلية؟",
+    "answer": "دونات"
+  },
+  {
+    "id": "f8-5",
+    "letter": "د",
+    "category": "طعام",
+    "question": "شراب سميك من التمر؟",
+    "answer": "دبس"
+  },
+  {
+    "id": "f9-1",
+    "letter": "ذ",
+    "category": "طعام",
+    "question": "حبوب صفراء للفشار؟",
+    "answer": "ذرة"
+  },
+  {
+    "id": "f9-2",
+    "letter": "ذ",
+    "category": "طعام",
+    "question": "حبوب ذهبية؟",
+    "answer": "ذرة صفراء"
+  },
+  {
+    "id": "f9-3",
+    "letter": "ذ",
+    "category": "طعام",
+    "question": "نوع أبيض من الذرة؟",
+    "answer": "ذرة بيضاء"
+  },
+  {
+    "id": "f9-4",
+    "letter": "ذ",
+    "category": "طعام",
+    "question": "ذرة حلوة للأكل؟",
+    "answer": "ذرة حلوة"
+  },
+  {
+    "id": "f9-5",
+    "letter": "ذ",
+    "category": "طعام",
+    "question": "حبوب للعلف؟",
+    "answer": "ذرة شامية"
+  },
+  {
+    "id": "f10-1",
+    "letter": "ر",
+    "category": "طعام",
+    "question": "فاكهة حمراء فيها بذور؟",
+    "answer": "رمان"
+  },
+  {
+    "id": "f10-2",
+    "letter": "ر",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "رز"
+  },
+  {
+    "id": "f10-3",
+    "letter": "ر",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "رطب"
+  },
+  {
+    "id": "f10-4",
+    "letter": "ر",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "روكا"
+  },
+  {
+    "id": "f10-5",
+    "letter": "ر",
+    "category": "طعام",
+    "question": "عشبة؟",
+    "answer": "ريحان"
+  },
+  {
+    "id": "f11-1",
+    "letter": "ز",
+    "category": "طعام",
+    "question": "فاكهة زيتية خضراء أو سوداء؟",
+    "answer": "زيتون"
+  },
+  {
+    "id": "f11-2",
+    "letter": "ز",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "زعتر"
+  },
+  {
+    "id": "f11-3",
+    "letter": "ز",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "زبيب"
+  },
+  {
+    "id": "f11-4",
+    "letter": "ز",
+    "category": "طعام",
+    "question": "عشبة؟",
+    "answer": "زعفران"
+  },
+  {
+    "id": "f11-5",
+    "letter": "ز",
+    "category": "طعام",
+    "question": "بهار؟",
+    "answer": "زنجبيل"
+  },
+  {
+    "id": "f12-1",
+    "letter": "س",
+    "category": "طعام",
+    "question": "خضار ورقي أخضر للطبخ؟",
+    "answer": "سلق"
+  },
+  {
+    "id": "f12-2",
+    "letter": "س",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "سميد"
+  },
+  {
+    "id": "f12-3",
+    "letter": "س",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "سفرجل"
+  },
+  {
+    "id": "f12-4",
+    "letter": "س",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "سبانخ"
+  },
+  {
+    "id": "f12-5",
+    "letter": "س",
+    "category": "طعام",
+    "question": "سلطة؟",
+    "answer": "سلطة"
+  },
+  {
+    "id": "f13-1",
+    "letter": "ش",
+    "category": "طعام",
+    "question": "مشروب حلو من الفواكه؟",
+    "answer": "شراب"
+  },
+  {
+    "id": "f13-2",
+    "letter": "ش",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "شعير"
+  },
+  {
+    "id": "f13-3",
+    "letter": "ش",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "شمام"
+  },
+  {
+    "id": "f13-4",
+    "letter": "ش",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "شمر"
+  },
+  {
+    "id": "f13-5",
+    "letter": "ش",
+    "category": "طعام",
+    "question": "حلوى؟",
+    "answer": "شوكولاتة"
+  },
+  {
+    "id": "f14-1",
+    "letter": "ص",
+    "category": "طعام",
+    "question": "خبز عربي على شكل قوارب؟",
+    "answer": "صمون"
+  },
+  {
+    "id": "f14-2",
+    "letter": "ص",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "صنوبر"
+  },
+  {
+    "id": "f14-3",
+    "letter": "ص",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "صبر"
+  },
+  {
+    "id": "f14-4",
+    "letter": "ص",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "صويا"
+  },
+  {
+    "id": "f14-5",
+    "letter": "ص",
+    "category": "طعام",
+    "question": "حلوى؟",
+    "answer": "صمون حلو"
+  },
+  {
+    "id": "f15-1",
+    "letter": "ط",
+    "category": "طعام",
+    "question": "خضار حمراء للسلطة والصلصة؟",
+    "answer": "طماطم"
+  },
+  {
+    "id": "f15-2",
+    "letter": "ط",
+    "category": "طعام",
+    "question": "مسحوق القمح؟",
+    "answer": "طحين"
+  },
+  {
+    "id": "f15-3",
+    "letter": "ط",
+    "category": "طعام",
+    "question": "بهار؟",
+    "answer": "طرخون"
+  },
+  {
+    "id": "f15-4",
+    "letter": "ط",
+    "category": "طعام",
+    "question": "معجون السمسم؟",
+    "answer": "طحينة"
+  },
+  {
+    "id": "f15-5",
+    "letter": "ط",
+    "category": "طعام",
+    "question": "طبق مغربي؟",
+    "answer": "طاجن"
+  },
+  {
+    "id": "f16-1",
+    "letter": "ع",
+    "category": "طعام",
+    "question": "فاكهة عناقيد صغيرة؟",
+    "answer": "عنب"
+  },
+  {
+    "id": "f16-2",
+    "letter": "ع",
+    "category": "طعام",
+    "question": "حبوب بنية؟",
+    "answer": "عدس"
+  },
+  {
+    "id": "f16-3",
+    "letter": "ع",
+    "category": "طعام",
+    "question": "فاكهة برية؟",
+    "answer": "عليق"
+  },
+  {
+    "id": "f16-4",
+    "letter": "ع",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "عكوب"
+  },
+  {
+    "id": "f16-5",
+    "letter": "ع",
+    "category": "طعام",
+    "question": "عشبة صفراء؟",
+    "answer": "عصفر"
+  },
+  {
+    "id": "f17-1",
+    "letter": "ف",
+    "category": "طعام",
+    "question": "فاكهة حمراء حلوة؟",
+    "answer": "فراولة"
+  },
+  {
+    "id": "f17-2",
+    "letter": "ف",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "فول"
+  },
+  {
+    "id": "f17-3",
+    "letter": "ف",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "فواكه"
+  },
+  {
+    "id": "f17-4",
+    "letter": "ف",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "فاصوليا"
+  },
+  {
+    "id": "f17-5",
+    "letter": "ف",
+    "category": "طعام",
+    "question": "عشبة؟",
+    "answer": "فانيلا"
+  },
+  {
+    "id": "f18-1",
+    "letter": "ق",
+    "category": "طعام",
+    "question": "مشروب ساخن بني من الحبوب؟",
+    "answer": "قهوة"
+  },
+  {
+    "id": "f18-2",
+    "letter": "ق",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "قمح"
+  },
+  {
+    "id": "f18-3",
+    "letter": "ق",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "قرع"
+  },
+  {
+    "id": "f18-4",
+    "letter": "ق",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "قثاء"
+  },
+  {
+    "id": "f18-5",
+    "letter": "ق",
+    "category": "طعام",
+    "question": "بهار؟",
+    "answer": "قرفة"
+  },
+  {
+    "id": "f19-1",
+    "letter": "ك",
+    "category": "طعام",
+    "question": "فاكهة خضراء استوائية؟",
+    "answer": "كيوي"
+  },
+  {
+    "id": "f19-2",
+    "letter": "ك",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "كسكس"
+  },
+  {
+    "id": "f19-3",
+    "letter": "ك",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "كمثرى"
+  },
+  {
+    "id": "f19-4",
+    "letter": "ك",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "كرفس"
+  },
+  {
+    "id": "f19-5",
+    "letter": "ك",
+    "category": "طعام",
+    "question": "بهار؟",
+    "answer": "كركم"
+  },
+  {
+    "id": "f20-1",
+    "letter": "ل",
+    "category": "طعام",
+    "question": "فاكهة حمضية صفراء؟",
+    "answer": "ليمون"
+  },
+  {
+    "id": "f20-2",
+    "letter": "ل",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "لوبيا"
+  },
+  {
+    "id": "f20-3",
+    "letter": "ل",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "ليتشي"
+  },
+  {
+    "id": "f20-4",
+    "letter": "ل",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "لفت"
+  },
+  {
+    "id": "f20-5",
+    "letter": "ل",
+    "category": "طعام",
+    "question": "عشبة؟",
+    "answer": "لافندر"
+  },
+  {
+    "id": "f21-1",
+    "letter": "م",
+    "category": "طعام",
+    "question": "فاكهة استوائية صفراء حلوة؟",
+    "answer": "مانجو"
+  },
+  {
+    "id": "f21-2",
+    "letter": "م",
+    "category": "طعام",
+    "question": "حبوب؟",
+    "answer": "مكرونة"
+  },
+  {
+    "id": "f21-3",
+    "letter": "م",
+    "category": "طعام",
+    "question": "فاكهة؟",
+    "answer": "مشمش"
+  },
+  {
+    "id": "f21-4",
+    "letter": "م",
+    "category": "طعام",
+    "question": "خضار؟",
+    "answer": "ملوخية"
+  },
+  {
+    "id": "f21-5",
+    "letter": "م",
+    "category": "طعام",
+    "question": "عشبة؟",
+    "answer": "مرمرية"
+  },
+  {
+    "id": "f22-1",
+    "letter": "ن",
+    "category": "طعام",
+    "question": "عشبة خضراء منعشة للشاي؟",
+    "answer": "نعناع"
+  },
+  {
+    "id": "f22-2",
+    "letter": "ن",
+    "category": "طعام",
+    "question": "قشر الحبوب؟",
+    "answer": "نخالة"
+  },
+  {
+    "id": "f22-3",
+    "letter": "ن",
+    "category": "طعام",
+    "question": "فاكهة صيفية؟",
+    "answer": "نكتارين"
+  },
+  {
+    "id": "f22-4",
+    "letter": "ن",
+    "category": "طعام",
+    "question": "عشبة مهدئة؟",
+    "answer": "ناردين"
+  },
+  {
+    "id": "f22-5",
+    "letter": "ن",
+    "category": "طعام",
+    "question": "فاكهة استوائية؟",
+    "answer": "نارنج"
+  },
+  {
+    "id": "f23-1",
+    "letter": "هـ",
+    "category": "طعام",
+    "question": "توابل عطرية خضراء للقهوة؟",
+    "answer": "هيل"
+  },
+  {
+    "id": "f23-2",
+    "letter": "هـ",
+    "category": "طعام",
+    "question": "فاكهة استوائية بنية؟",
+    "answer": "هندي"
+  },
+  {
+    "id": "f23-3",
+    "letter": "هـ",
+    "category": "طعام",
+    "question": "خضار أخضر طويل؟",
+    "answer": "هليون"
+  },
+  {
+    "id": "f23-4",
+    "letter": "هـ",
+    "category": "طعام",
+    "question": "عشبة برية للسلطة؟",
+    "answer": "هندباء"
+  },
+  {
+    "id": "f23-5",
+    "letter": "هـ",
+    "category": "طعام",
+    "question": "معجون فلفل حار؟",
+    "answer": "هريسة"
+  },
+  {
+    "id": "f24-1",
+    "letter": "و",
+    "category": "طعام",
+    "question": "زهرة عطرية حمراء؟",
+    "answer": "ورد"
+  },
+  {
+    "id": "f24-2",
+    "letter": "و",
+    "category": "طعام",
+    "question": "ورق العنب للمحاشي؟",
+    "answer": "ورق عنب"
+  },
+  {
+    "id": "f24-3",
+    "letter": "و",
+    "category": "طعام",
+    "question": "ورق الغار للطبخ؟",
+    "answer": "ورق الغار"
+  },
+  {
+    "id": "f24-4",
+    "letter": "و",
+    "category": "طعام",
+    "question": "نبات للزينة؟",
+    "answer": "وردة"
+  },
+  {
+    "id": "f24-5",
+    "letter": "و",
+    "category": "طعام",
+    "question": "أوراق الشجر؟",
+    "answer": "ورق"
+  },
+  {
+    "id": "f25-1",
+    "letter": "ي",
+    "category": "طعام",
+    "question": "خضار برتقالية كبيرة للهالوين؟",
+    "answer": "يقطين"
+  },
+  {
+    "id": "f25-2",
+    "letter": "ي",
+    "category": "طعام",
+    "question": "درنة نشوية؟",
+    "answer": "يام"
+  },
+  {
+    "id": "f25-3",
+    "letter": "ي",
+    "category": "طعام",
+    "question": "فاكهة حمضية؟",
+    "answer": "يوسفي"
+  },
+  {
+    "id": "f25-4",
+    "letter": "ي",
+    "category": "طعام",
+    "question": "عشبة للطبخ؟",
+    "answer": "يانسون"
+  },
+  {
+    "id": "f25-5",
+    "letter": "ي",
+    "category": "طعام",
+    "question": "طبق خضار مطبوخ؟",
+    "answer": "يخنة"
+  },
+  {
+    "id": "h1-1",
+    "letter": "آ",
+    "category": "تاريخ وشخصيات",
+    "question": "غزوة قرب المدينة في السنة الثالثة؟",
+    "answer": "أحد"
+  },
+  {
+    "id": "h1-2",
+    "letter": "آ",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة راشد؟",
+    "answer": "أبو بكر"
+  },
+  {
+    "id": "h1-3",
+    "letter": "آ",
+    "category": "تاريخ وشخصيات",
+    "question": "فيلسوف يوناني؟",
+    "answer": "أفلاطون"
+  },
+  {
+    "id": "h1-4",
+    "letter": "آ",
+    "category": "تاريخ وشخصيات",
+    "question": "فيلسوف وعالم؟",
+    "answer": "أرسطو"
+  },
+  {
+    "id": "h1-5",
+    "letter": "آ",
+    "category": "تاريخ وشخصيات",
+    "question": "نبي الله؟",
+    "answer": "إبراهيم"
+  },
+  {
+    "id": "h2-1",
+    "letter": "ب",
+    "category": "تاريخ وشخصيات",
+    "question": "أول غزوة للمسلمين انتصروا فيها؟",
+    "answer": "بدر"
+  },
+  {
+    "id": "h2-2",
+    "letter": "ب",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي مؤذن الرسول؟",
+    "answer": "بلال"
+  },
+  {
+    "id": "h2-3",
+    "letter": "ب",
+    "category": "تاريخ وشخصيات",
+    "question": "معركة في رمضان؟",
+    "answer": "بدر الكبرى"
+  },
+  {
+    "id": "h2-4",
+    "letter": "ب",
+    "category": "تاريخ وشخصيات",
+    "question": "بلال بن رباح؟",
+    "answer": "بلال بن رباح"
+  },
+  {
+    "id": "h2-5",
+    "letter": "ب",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة بدر؟",
+    "answer": "بني بدر"
+  },
+  {
+    "id": "h3-1",
+    "letter": "ت",
+    "category": "تاريخ وشخصيات",
+    "question": "آخر غزوات الرسول؟",
+    "answer": "تبوك"
+  },
+  {
+    "id": "h3-2",
+    "letter": "ت",
+    "category": "تاريخ وشخصيات",
+    "question": "غزوة الروم؟",
+    "answer": "تبوك الكبرى"
+  },
+  {
+    "id": "h3-3",
+    "letter": "ت",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة عربية؟",
+    "answer": "تميم"
+  },
+  {
+    "id": "h3-4",
+    "letter": "ت",
+    "category": "تاريخ وشخصيات",
+    "question": "منطقة في غرب الجزيرة؟",
+    "answer": "تهامة"
+  },
+  {
+    "id": "h3-5",
+    "letter": "ت",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة تغلب؟",
+    "answer": "تغلب"
+  },
+  {
+    "id": "h4-1",
+    "letter": "ث",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي كاتب الوحي؟",
+    "answer": "ثابت"
+  },
+  {
+    "id": "h4-2",
+    "letter": "ث",
+    "category": "تاريخ وشخصيات",
+    "question": "زيد بن ثابت؟",
+    "answer": "ثابت بن زيد"
+  },
+  {
+    "id": "h4-3",
+    "letter": "ث",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة في الطائف؟",
+    "answer": "ثقيف"
+  },
+  {
+    "id": "h4-4",
+    "letter": "ث",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي أنصاري؟",
+    "answer": "ثابت بن قيس"
+  },
+  {
+    "id": "h4-5",
+    "letter": "ث",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة عربية؟",
+    "answer": "ثعلبة"
+  },
+  {
+    "id": "h5-1",
+    "letter": "ج",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي استشهد في مؤتة؟",
+    "answer": "جعفر الطيار"
+  },
+  {
+    "id": "h5-2",
+    "letter": "ج",
+    "category": "تاريخ وشخصيات",
+    "question": "عالم كيمياء عربي؟",
+    "answer": "جابر بن حيان"
+  },
+  {
+    "id": "h5-3",
+    "letter": "ج",
+    "category": "تاريخ وشخصيات",
+    "question": "مفكر إسلامي أفغاني؟",
+    "answer": "جمال الدين الأفغاني"
+  },
+  {
+    "id": "h5-4",
+    "letter": "ج",
+    "category": "تاريخ وشخصيات",
+    "question": "أديب ومؤرخ لبناني؟",
+    "answer": "جرجي زيدان"
+  },
+  {
+    "id": "h5-5",
+    "letter": "ج",
+    "category": "تاريخ وشخصيات",
+    "question": "صوفي وشاعر فارسي؟",
+    "answer": "جلال الدين الرومي"
+  },
+  {
+    "id": "h6-1",
+    "letter": "ح",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي صاحب سر الرسول؟",
+    "answer": "حذيفة"
+  },
+  {
+    "id": "h6-2",
+    "letter": "ح",
+    "category": "تاريخ وشخصيات",
+    "question": "حذيفة بن اليمان؟",
+    "answer": "حذيفة بن اليمان"
+  },
+  {
+    "id": "h6-3",
+    "letter": "ح",
+    "category": "تاريخ وشخصيات",
+    "question": "معركة انتصر فيها صلاح الدين؟",
+    "answer": "حطين"
+  },
+  {
+    "id": "h6-4",
+    "letter": "ح",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة سورية قديمة؟",
+    "answer": "حمص"
+  },
+  {
+    "id": "h6-5",
+    "letter": "ح",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة على نهر العاصي؟",
+    "answer": "حماة"
+  },
+  {
+    "id": "h7-1",
+    "letter": "خ",
+    "category": "تاريخ وشخصيات",
+    "question": "سيف الله المسلول؟",
+    "answer": "خالد بن الوليد"
+  },
+  {
+    "id": "h7-2",
+    "letter": "خ",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي شهد بدراً؟",
+    "answer": "خزيمة بن ثابت"
+  },
+  {
+    "id": "h7-3",
+    "letter": "خ",
+    "category": "تاريخ وشخصيات",
+    "question": "أول زوجات الرسول؟",
+    "answer": "خديجة"
+  },
+  {
+    "id": "h7-4",
+    "letter": "خ",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي من السابقين؟",
+    "answer": "خباب بن الأرت"
+  },
+  {
+    "id": "h7-5",
+    "letter": "خ",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي من المهاجرين؟",
+    "answer": "خالد بن سعيد"
+  },
+  {
+    "id": "h8-1",
+    "letter": "د",
+    "category": "تاريخ وشخصيات",
+    "question": "ما بدأ به الرسول؟",
+    "answer": "دعوة"
+  },
+  {
+    "id": "h8-2",
+    "letter": "د",
+    "category": "تاريخ وشخصيات",
+    "question": "دوائر الإدارة في الدولة الإسلامية؟",
+    "answer": "دواوين"
+  },
+  {
+    "id": "h8-3",
+    "letter": "د",
+    "category": "تاريخ وشخصيات",
+    "question": "عملة ذهبية إسلامية؟",
+    "answer": "دينار"
+  },
+  {
+    "id": "h8-4",
+    "letter": "د",
+    "category": "تاريخ وشخصيات",
+    "question": "عملة فضية إسلامية؟",
+    "answer": "درهم"
+  },
+  {
+    "id": "h8-5",
+    "letter": "د",
+    "category": "تاريخ وشخصيات",
+    "question": "من يدعو للإسلام؟",
+    "answer": "داعية"
+  },
+  {
+    "id": "h9-1",
+    "letter": "ذ",
+    "category": "تاريخ وشخصيات",
+    "question": "لقب عثمان بن عفان؟",
+    "answer": "ذي النورين"
+  },
+  {
+    "id": "h9-2",
+    "letter": "ذ",
+    "category": "تاريخ وشخصيات",
+    "question": "سيف الإمام علي؟",
+    "answer": "ذو الفقار"
+  },
+  {
+    "id": "h9-3",
+    "letter": "ذ",
+    "category": "تاريخ وشخصيات",
+    "question": "ملك صالح ذكر في القرآن؟",
+    "answer": "ذو القرنين"
+  },
+  {
+    "id": "h9-4",
+    "letter": "ذ",
+    "category": "تاريخ وشخصيات",
+    "question": "نبي من الأنبياء؟",
+    "answer": "ذو الكفل"
+  },
+  {
+    "id": "h9-5",
+    "letter": "ذ",
+    "category": "تاريخ وشخصيات",
+    "question": "صاحب الحوت؟",
+    "answer": "ذو النون"
+  },
+  {
+    "id": "h10-1",
+    "letter": "ر",
+    "category": "تاريخ وشخصيات",
+    "question": "خاتم الأنبياء؟",
+    "answer": "رسول الله"
+  },
+  {
+    "id": "h10-2",
+    "letter": "ر",
+    "category": "تاريخ وشخصيات",
+    "question": "ما بلغه الرسول؟",
+    "answer": "رسالة"
+  },
+  {
+    "id": "h10-3",
+    "letter": "ر",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة عباسي شهير؟",
+    "answer": "الرشيد"
+  },
+  {
+    "id": "h10-4",
+    "letter": "ر",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة على الفرات؟",
+    "answer": "الرقة"
+  },
+  {
+    "id": "h10-5",
+    "letter": "ر",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة عربية؟",
+    "answer": "ربيعة"
+  },
+  {
+    "id": "h11-1",
+    "letter": "ز",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي من العشرة المبشرين؟",
+    "answer": "الزبير بن العوام"
+  },
+  {
+    "id": "h11-2",
+    "letter": "ز",
+    "category": "تاريخ وشخصيات",
+    "question": "إمام من أهل البيت؟",
+    "answer": "زين العابدين"
+  },
+  {
+    "id": "h11-3",
+    "letter": "ز",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي كاتب الوحي؟",
+    "answer": "زيد بن ثابت"
+  },
+  {
+    "id": "h11-4",
+    "letter": "ز",
+    "category": "تاريخ وشخصيات",
+    "question": "شاعرة عربية قديمة؟",
+    "answer": "زرقاء اليمامة"
+  },
+  {
+    "id": "h11-5",
+    "letter": "ز",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي استشهد في الجمل؟",
+    "answer": "الزبير"
+  },
+  {
+    "id": "h12-1",
+    "letter": "س",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي من العشرة فاتح العراق؟",
+    "answer": "سعد بن أبي وقاص"
+  },
+  {
+    "id": "h12-2",
+    "letter": "س",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي أنصاري شهد بدراً؟",
+    "answer": "سعد بن معاذ"
+  },
+  {
+    "id": "h12-3",
+    "letter": "س",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي من الخزرج؟",
+    "answer": "سعد بن عبادة"
+  },
+  {
+    "id": "h12-4",
+    "letter": "س",
+    "category": "تاريخ وشخصيات",
+    "question": "إمام من التابعين؟",
+    "answer": "سفيان الثوري"
+  },
+  {
+    "id": "h12-5",
+    "letter": "س",
+    "category": "تاريخ وشخصيات",
+    "question": "عالم نحوي عربي؟",
+    "answer": "سيبويه"
+  },
+  {
+    "id": "h13-1",
+    "letter": "ش",
+    "category": "تاريخ وشخصيات",
+    "question": "منطقة فتحها المسلمون؟",
+    "answer": "الشام"
+  },
+  {
+    "id": "h13-2",
+    "letter": "ش",
+    "category": "تاريخ وشخصيات",
+    "question": "قانون إلهي؟",
+    "answer": "شريعة"
+  },
+  {
+    "id": "h13-3",
+    "letter": "ش",
+    "category": "تاريخ وشخصيات",
+    "question": "معركة ضد التتار؟",
+    "answer": "شقحب"
+  },
+  {
+    "id": "h13-4",
+    "letter": "ش",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة في فلسطين؟",
+    "answer": "شكيم"
+  },
+  {
+    "id": "h13-5",
+    "letter": "ش",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة عربية؟",
+    "answer": "شمر"
+  },
+  {
+    "id": "h14-1",
+    "letter": "ص",
+    "category": "تاريخ وشخصيات",
+    "question": "لقب أبي بكر؟",
+    "answer": "الصديق"
+  },
+  {
+    "id": "h14-2",
+    "letter": "ص",
+    "category": "تاريخ وشخصيات",
+    "question": "قائد معركة حطين؟",
+    "answer": "صلاح الدين"
+  },
+  {
+    "id": "h14-3",
+    "letter": "ص",
+    "category": "تاريخ وشخصيات",
+    "question": "حملات الفرنجة؟",
+    "answer": "صليبيون"
+  },
+  {
+    "id": "h14-4",
+    "letter": "ص",
+    "category": "تاريخ وشخصيات",
+    "question": "فضيلة إسلامية؟",
+    "answer": "صبر"
+  },
+  {
+    "id": "h14-5",
+    "letter": "ص",
+    "category": "تاريخ وشخصيات",
+    "question": "رفقاء الرسول؟",
+    "answer": "صحابة"
+  },
+  {
+    "id": "h15-1",
+    "letter": "ط",
+    "category": "تاريخ وشخصيات",
+    "question": "فاتح الأندلس؟",
+    "answer": "طارق بن زياد"
+  },
+  {
+    "id": "h15-2",
+    "letter": "ط",
+    "category": "تاريخ وشخصيات",
+    "question": "صحابي من العشرة؟",
+    "answer": "طلحة بن عبيد الله"
+  },
+  {
+    "id": "h15-3",
+    "letter": "ط",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة ليبية؟",
+    "answer": "طبرق"
+  },
+  {
+    "id": "h15-4",
+    "letter": "ط",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة تركية قديمة؟",
+    "answer": "طرسوس"
+  },
+  {
+    "id": "h15-5",
+    "letter": "ط",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة في فلسطين؟",
+    "answer": "طبرية"
+  },
+  {
+    "id": "h16-1",
+    "letter": "ع",
+    "category": "تاريخ وشخصيات",
+    "question": "الفاروق ثاني الخلفاء؟",
+    "answer": "عمر بن الخطاب"
+  },
+  {
+    "id": "h16-2",
+    "letter": "ع",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة أموي عادل؟",
+    "answer": "عمر بن عبد العزيز"
+  },
+  {
+    "id": "h16-3",
+    "letter": "ع",
+    "category": "تاريخ وشخصيات",
+    "question": "بطل ليبيا ضد الاستعمار؟",
+    "answer": "عمر المختار"
+  },
+  {
+    "id": "h16-4",
+    "letter": "ع",
+    "category": "تاريخ وشخصيات",
+    "question": "ثالث الخلفاء الراشدين؟",
+    "answer": "عثمان بن عفان"
+  },
+  {
+    "id": "h16-5",
+    "letter": "ع",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة بني أمية؟",
+    "answer": "عبد الملك بن مروان"
+  },
+  {
+    "id": "h17-1",
+    "letter": "ف",
+    "category": "تاريخ وشخصيات",
+    "question": "فتح إسلامي لمصر؟",
+    "answer": "فتح مصر"
+  },
+  {
+    "id": "h17-2",
+    "letter": "ف",
+    "category": "تاريخ وشخصيات",
+    "question": "دخول الإسلام الشام؟",
+    "answer": "فتح الشام"
+  },
+  {
+    "id": "h17-3",
+    "letter": "ف",
+    "category": "تاريخ وشخصيات",
+    "question": "فتح العراق في عهد عمر؟",
+    "answer": "فتح العراق"
+  },
+  {
+    "id": "h17-4",
+    "letter": "ف",
+    "category": "تاريخ وشخصيات",
+    "question": "فتح القدس في عهد عمر؟",
+    "answer": "فتح القدس"
+  },
+  {
+    "id": "h17-5",
+    "letter": "ف",
+    "category": "تاريخ وشخصيات",
+    "question": "فتح الأندلس؟",
+    "answer": "فتح الأندلس"
+  },
+  {
+    "id": "h18-1",
+    "letter": "ق",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة الرسول؟",
+    "answer": "قريش"
+  },
+  {
+    "id": "h18-2",
+    "letter": "ق",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة عربية؟",
+    "answer": "قيس"
+  },
+  {
+    "id": "h18-3",
+    "letter": "ق",
+    "category": "تاريخ وشخصيات",
+    "question": "جد العرب العاربة؟",
+    "answer": "قحطان"
+  },
+  {
+    "id": "h18-4",
+    "letter": "ق",
+    "category": "تاريخ وشخصيات",
+    "question": "معركة ضد الفرس؟",
+    "answer": "القادسية"
+  },
+  {
+    "id": "h18-5",
+    "letter": "ق",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة في اليمن؟",
+    "answer": "قبيلة"
+  },
+  {
+    "id": "h19-1",
+    "letter": "ك",
+    "category": "تاريخ وشخصيات",
+    "question": "بيت الله في مكة؟",
+    "answer": "الكعبة"
+  },
+  {
+    "id": "h19-2",
+    "letter": "ك",
+    "category": "تاريخ وشخصيات",
+    "question": "كلمة التوحيد؟",
+    "answer": "كلمة"
+  },
+  {
+    "id": "h19-3",
+    "letter": "ك",
+    "category": "تاريخ وشخصيات",
+    "question": "مدينة عراقية أنشأها سعد؟",
+    "answer": "الكوفة"
+  },
+  {
+    "id": "h19-4",
+    "letter": "ك",
+    "category": "تاريخ وشخصيات",
+    "question": "ما أنزل على الرسول؟",
+    "answer": "كتاب"
+  },
+  {
+    "id": "h19-5",
+    "letter": "ك",
+    "category": "تاريخ وشخصيات",
+    "question": "علم المادة؟",
+    "answer": "كيمياء"
+  },
+  {
+    "id": "h20-1",
+    "letter": "ل",
+    "category": "تاريخ وشخصيات",
+    "question": "ليلة خير من ألف شهر؟",
+    "answer": "ليلة القدر"
+  },
+  {
+    "id": "h20-2",
+    "letter": "ل",
+    "category": "تاريخ وشخصيات",
+    "question": "أفضل ليالي رمضان؟",
+    "answer": "ليلة مباركة"
+  },
+  {
+    "id": "h20-3",
+    "letter": "ل",
+    "category": "تاريخ وشخصيات",
+    "question": "راية الجيش؟",
+    "answer": "لواء"
+  },
+  {
+    "id": "h20-4",
+    "letter": "ل",
+    "category": "تاريخ وشخصيات",
+    "question": "لقاء الحبيب؟",
+    "answer": "لقاء"
+  },
+  {
+    "id": "h20-5",
+    "letter": "ل",
+    "category": "تاريخ وشخصيات",
+    "question": "دولة عربية؟",
+    "answer": "لبنان"
+  },
+  {
+    "id": "h21-1",
+    "letter": "م",
+    "category": "تاريخ وشخصيات",
+    "question": "دار الهجرة؟",
+    "answer": "المدينة المنورة"
+  },
+  {
+    "id": "h21-2",
+    "letter": "م",
+    "category": "تاريخ وشخصيات",
+    "question": "رسول الله؟",
+    "answer": "محمد"
+  },
+  {
+    "id": "h21-3",
+    "letter": "م",
+    "category": "تاريخ وشخصيات",
+    "question": "بيت الصلاة؟",
+    "answer": "المسجد"
+  },
+  {
+    "id": "h21-4",
+    "letter": "م",
+    "category": "تاريخ وشخصيات",
+    "question": "حدث عسكري؟",
+    "answer": "معركة"
+  },
+  {
+    "id": "h21-5",
+    "letter": "م",
+    "category": "تاريخ وشخصيات",
+    "question": "أقدس مدينة للمسلمين؟",
+    "answer": "مكة"
+  },
+  {
+    "id": "h22-1",
+    "letter": "ن",
+    "category": "تاريخ وشخصيات",
+    "question": "نبي الطوفان صاحب السفينة؟",
+    "answer": "نوح"
+  },
+  {
+    "id": "h22-2",
+    "letter": "ن",
+    "category": "تاريخ وشخصيات",
+    "question": "أول الرسل؟",
+    "answer": "نبي"
+  },
+  {
+    "id": "h22-3",
+    "letter": "ن",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة فاطمي؟",
+    "answer": "ناصر"
+  },
+  {
+    "id": "h22-4",
+    "letter": "ن",
+    "category": "تاريخ وشخصيات",
+    "question": "ملك بابل القديم؟",
+    "answer": "نبوخذ نصر"
+  },
+  {
+    "id": "h22-5",
+    "letter": "ن",
+    "category": "تاريخ وشخصيات",
+    "question": "قارئ من القراء العشرة؟",
+    "answer": "نافع"
+  },
+  {
+    "id": "h23-1",
+    "letter": "هـ",
+    "category": "تاريخ وشخصيات",
+    "question": "انتقال الرسول من مكة؟",
+    "answer": "هجرة"
+  },
+  {
+    "id": "h23-2",
+    "letter": "هـ",
+    "category": "تاريخ وشخصيات",
+    "question": "بداية التأريخ الإسلامي؟",
+    "answer": "هجرة نبوية"
+  },
+  {
+    "id": "h23-3",
+    "letter": "هـ",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة أموي؟",
+    "answer": "هشام بن عبد الملك"
+  },
+  {
+    "id": "h23-4",
+    "letter": "هـ",
+    "category": "تاريخ وشخصيات",
+    "question": "قبيلة يمنية؟",
+    "answer": "همدان"
+  },
+  {
+    "id": "h23-5",
+    "letter": "هـ",
+    "category": "تاريخ وشخصيات",
+    "question": "أخو موسى؟",
+    "answer": "هارون"
+  },
+  {
+    "id": "h24-1",
+    "letter": "و",
+    "category": "تاريخ وشخصيات",
+    "question": "مقابر الفراعنة في الأقصر؟",
+    "answer": "وادي الملوك"
+  },
+  {
+    "id": "h24-2",
+    "letter": "و",
+    "category": "تاريخ وشخصيات",
+    "question": "مجرى مائي بين الجبال؟",
+    "answer": "وادي"
+  },
+  {
+    "id": "h24-3",
+    "letter": "و",
+    "category": "تاريخ وشخصيات",
+    "question": "حدث عسكري؟",
+    "answer": "وقعة"
+  },
+  {
+    "id": "h24-4",
+    "letter": "و",
+    "category": "تاريخ وشخصيات",
+    "question": "أولياء الله؟",
+    "answer": "ولي"
+  },
+  {
+    "id": "h24-5",
+    "letter": "و",
+    "category": "تاريخ وشخصيات",
+    "question": "وعد من الله؟",
+    "answer": "وعد"
+  },
+  {
+    "id": "h25-1",
+    "letter": "ي",
+    "category": "تاريخ وشخصيات",
+    "question": "نبي ابن إسحاق أبو يوسف؟",
+    "answer": "يعقوب"
+  },
+  {
+    "id": "h25-2",
+    "letter": "ي",
+    "category": "تاريخ وشخصيات",
+    "question": "نبي أرسل إلى مصر؟",
+    "answer": "يوسف"
+  },
+  {
+    "id": "h25-3",
+    "letter": "ي",
+    "category": "تاريخ وشخصيات",
+    "question": "نبي كريم؟",
+    "answer": "يحيى"
+  },
+  {
+    "id": "h25-4",
+    "letter": "ي",
+    "category": "تاريخ وشخصيات",
+    "question": "خليفة أموي؟",
+    "answer": "يزيد"
+  },
+  {
+    "id": "h25-5",
+    "letter": "ي",
+    "category": "تاريخ وشخصيات",
+    "question": "يوم القيامة؟",
+    "answer": "يوم الدين"
+  },
+  {
+    "id": "s1-1",
+    "letter": "آ",
+    "category": "علوم ومعرفة",
+    "question": "غاز التنفس والحياة؟",
+    "answer": "أكسجين"
+  },
+  {
+    "id": "s1-2",
+    "letter": "آ",
+    "category": "علوم ومعرفة",
+    "question": "أمواج البحر؟",
+    "answer": "أمواج"
+  },
+  {
+    "id": "s1-3",
+    "letter": "آ",
+    "category": "علوم ومعرفة",
+    "question": "مركبات كيميائية؟",
+    "answer": "أحماض"
+  },
+  {
+    "id": "s1-4",
+    "letter": "آ",
+    "category": "علوم ومعرفة",
+    "question": "كائن وحيد الخلية؟",
+    "answer": "أميبا"
+  },
+  {
+    "id": "s1-5",
+    "letter": "آ",
+    "category": "علوم ومعرفة",
+    "question": "جسيم سالب الشحنة؟",
+    "answer": "إلكترون"
+  },
+  {
+    "id": "s2-1",
+    "letter": "ب",
+    "category": "علوم ومعرفة",
+    "question": "كائنات مجهرية؟",
+    "answer": "بكتيريا"
+  },
+  {
+    "id": "s2-2",
+    "letter": "ب",
+    "category": "علوم ومعرفة",
+    "question": "ماء في حالة غازية؟",
+    "answer": "بخار"
+  },
+  {
+    "id": "s2-3",
+    "letter": "ب",
+    "category": "علوم ومعرفة",
+    "question": "مركب عضوي؟",
+    "answer": "بروتين"
+  },
+  {
+    "id": "s2-4",
+    "letter": "ب",
+    "category": "علوم ومعرفة",
+    "question": "وحدة قياس النفط؟",
+    "answer": "برميل"
+  },
+  {
+    "id": "s2-5",
+    "letter": "ب",
+    "category": "علوم ومعرفة",
+    "question": "حالة المادة الرابعة؟",
+    "answer": "بلازما"
+  },
+  {
+    "id": "s3-1",
+    "letter": "ت",
+    "category": "علوم ومعرفة",
+    "question": "مقياس الحرارة؟",
+    "answer": "ترمومتر"
+  },
+  {
+    "id": "s3-2",
+    "letter": "ت",
+    "category": "علوم ومعرفة",
+    "question": "فحص في المختبر؟",
+    "answer": "تحليل"
+  },
+  {
+    "id": "s3-3",
+    "letter": "ت",
+    "category": "علوم ومعرفة",
+    "question": "تدفق الكهرباء؟",
+    "answer": "تيار"
+  },
+  {
+    "id": "s3-4",
+    "letter": "ت",
+    "category": "علوم ومعرفة",
+    "question": "آلة للطاقة؟",
+    "answer": "توربين"
+  },
+  {
+    "id": "s3-5",
+    "letter": "ت",
+    "category": "علوم ومعرفة",
+    "question": "تحول الغاز لسائل؟",
+    "answer": "تكثيف"
+  },
+  {
+    "id": "s4-1",
+    "letter": "ث",
+    "category": "علوم ومعرفة",
+    "question": "عنصر Th المشع؟",
+    "answer": "ثوريوم"
+  },
+  {
+    "id": "s4-2",
+    "letter": "ث",
+    "category": "علوم ومعرفة",
+    "question": "قوة الجذب؟",
+    "answer": "ثقالة"
+  },
+  {
+    "id": "s4-3",
+    "letter": "ث",
+    "category": "علوم ومعرفة",
+    "question": "جرم فضائي؟",
+    "answer": "ثقب أسود"
+  },
+  {
+    "id": "s4-4",
+    "letter": "ث",
+    "category": "علوم ومعرفة",
+    "question": "قيمة لا تتغير؟",
+    "answer": "ثابت"
+  },
+  {
+    "id": "s4-5",
+    "letter": "ث",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الزمن؟",
+    "answer": "ثانية"
+  },
+  {
+    "id": "s5-1",
+    "letter": "ج",
+    "category": "علوم ومعرفة",
+    "question": "معلومات الوراثة؟",
+    "answer": "جينات"
+  },
+  {
+    "id": "s5-2",
+    "letter": "ج",
+    "category": "علوم ومعرفة",
+    "question": "قوة الجذب؟",
+    "answer": "جاذبية"
+  },
+  {
+    "id": "s5-3",
+    "letter": "ج",
+    "category": "علوم ومعرفة",
+    "question": "كمية الدواء؟",
+    "answer": "جرعة"
+  },
+  {
+    "id": "s5-4",
+    "letter": "ج",
+    "category": "علوم ومعرفة",
+    "question": "أصغر وحدة مادة؟",
+    "answer": "جزيء"
+  },
+  {
+    "id": "s5-5",
+    "letter": "ج",
+    "category": "علوم ومعرفة",
+    "question": "فرق الجهد؟",
+    "answer": "جهد"
+  },
+  {
+    "id": "s6-1",
+    "letter": "ح",
+    "category": "علوم ومعرفة",
+    "question": "معدن Fe؟",
+    "answer": "حديد"
+  },
+  {
+    "id": "s6-2",
+    "letter": "ح",
+    "category": "علوم ومعرفة",
+    "question": "طاقة الحركة؟",
+    "answer": "حرارة"
+  },
+  {
+    "id": "s6-3",
+    "letter": "ح",
+    "category": "علوم ومعرفة",
+    "question": "مقدار الفراغ؟",
+    "answer": "حجم"
+  },
+  {
+    "id": "s6-4",
+    "letter": "ح",
+    "category": "علوم ومعرفة",
+    "question": "مركب كيميائي؟",
+    "answer": "حمض"
+  },
+  {
+    "id": "s6-5",
+    "letter": "ح",
+    "category": "علوم ومعرفة",
+    "question": "قوة المجال؟",
+    "answer": "حقل"
+  },
+  {
+    "id": "s7-1",
+    "letter": "خ",
+    "category": "علوم ومعرفة",
+    "question": "أصغر وحدة حية؟",
+    "answer": "خلية"
+  },
+  {
+    "id": "s7-2",
+    "letter": "خ",
+    "category": "علوم ومعرفة",
+    "question": "مزج المواد؟",
+    "answer": "خلط"
+  },
+  {
+    "id": "s7-3",
+    "letter": "خ",
+    "category": "علوم ومعرفة",
+    "question": "فطريات للخبز؟",
+    "answer": "خميرة"
+  },
+  {
+    "id": "s7-4",
+    "letter": "خ",
+    "category": "علوم ومعرفة",
+    "question": "شكل هندسي؟",
+    "answer": "خماسي"
+  },
+  {
+    "id": "s7-5",
+    "letter": "خ",
+    "category": "علوم ومعرفة",
+    "question": "مسار مستقيم؟",
+    "answer": "خط"
+  },
+  {
+    "id": "s8-1",
+    "letter": "د",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الصوت dB؟",
+    "answer": "ديسيبل"
+  },
+  {
+    "id": "s8-2",
+    "letter": "د",
+    "category": "علوم ومعرفة",
+    "question": "مادة كيميائية؟",
+    "answer": "دواء"
+  },
+  {
+    "id": "s8-3",
+    "letter": "د",
+    "category": "علوم ومعرفة",
+    "question": "وحدة قياس؟",
+    "answer": "درجة"
+  },
+  {
+    "id": "s8-4",
+    "letter": "د",
+    "category": "علوم ومعرفة",
+    "question": "دورة في الثانية؟",
+    "answer": "دورة"
+  },
+  {
+    "id": "s8-5",
+    "letter": "د",
+    "category": "علوم ومعرفة",
+    "question": "دفعة من الطاقة؟",
+    "answer": "دفعة"
+  },
+  {
+    "id": "s9-1",
+    "letter": "ذ",
+    "category": "علوم ومعرفة",
+    "question": "أصغر جزء مادة؟",
+    "answer": "ذرة"
+  },
+  {
+    "id": "s9-2",
+    "letter": "ذ",
+    "category": "علوم ومعرفة",
+    "question": "عنصر ثمين؟",
+    "answer": "ذهب"
+  },
+  {
+    "id": "s9-3",
+    "letter": "ذ",
+    "category": "علوم ومعرفة",
+    "question": "تخزين المعلومات؟",
+    "answer": "ذاكرة"
+  },
+  {
+    "id": "s9-4",
+    "letter": "ذ",
+    "category": "علوم ومعرفة",
+    "question": "ذكاء الآلة؟",
+    "answer": "ذكاء"
+  },
+  {
+    "id": "s9-5",
+    "letter": "ذ",
+    "category": "علوم ومعرفة",
+    "question": "جسيم صغير؟",
+    "answer": "ذر"
+  },
+  {
+    "id": "s10-1",
+    "letter": "ر",
+    "category": "علوم ومعرفة",
+    "question": "عضو التنفس؟",
+    "answer": "رئتين"
+  },
+  {
+    "id": "s10-2",
+    "letter": "ر",
+    "category": "علوم ومعرفة",
+    "question": "عضو في الصدر؟",
+    "answer": "رئة"
+  },
+  {
+    "id": "s10-3",
+    "letter": "ر",
+    "category": "علوم ومعرفة",
+    "question": "عنصر مشع؟",
+    "answer": "رادون"
+  },
+  {
+    "id": "s10-4",
+    "letter": "ر",
+    "category": "علوم ومعرفة",
+    "question": "عنصر Ra؟",
+    "answer": "راديوم"
+  },
+  {
+    "id": "s10-5",
+    "letter": "ر",
+    "category": "علوم ومعرفة",
+    "question": "عنصر ثقيل؟",
+    "answer": "رصاص"
+  },
+  {
+    "id": "s11-1",
+    "letter": "ز",
+    "category": "علوم ومعرفة",
+    "question": "كوكب الحلقات؟",
+    "answer": "زحل"
+  },
+  {
+    "id": "s11-2",
+    "letter": "ز",
+    "category": "علوم ومعرفة",
+    "question": "عنصر Zn؟",
+    "answer": "زنك"
+  },
+  {
+    "id": "s11-3",
+    "letter": "ز",
+    "category": "علوم ومعرفة",
+    "question": "عنصر سائل؟",
+    "answer": "زئبق"
+  },
+  {
+    "id": "s11-4",
+    "letter": "ز",
+    "category": "علوم ومعرفة",
+    "question": "مادة شفافة؟",
+    "answer": "زجاج"
+  },
+  {
+    "id": "s11-5",
+    "letter": "ز",
+    "category": "علوم ومعرفة",
+    "question": "البعد الرابع؟",
+    "answer": "زمن"
+  },
+  {
+    "id": "s12-1",
+    "letter": "س",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الحرارة C؟",
+    "answer": "سيلسيوس"
+  },
+  {
+    "id": "s12-2",
+    "letter": "س",
+    "category": "علوم ومعرفة",
+    "question": "مقدار التحرك؟",
+    "answer": "سرعة"
+  },
+  {
+    "id": "s12-3",
+    "letter": "س",
+    "category": "علوم ومعرفة",
+    "question": "مادة تتدفق؟",
+    "answer": "سائل"
+  },
+  {
+    "id": "s12-4",
+    "letter": "س",
+    "category": "علوم ومعرفة",
+    "question": "مركب حلو؟",
+    "answer": "سكر"
+  },
+  {
+    "id": "s12-5",
+    "letter": "س",
+    "category": "علوم ومعرفة",
+    "question": "سلسلة ذرية؟",
+    "answer": "سلسلة"
+  },
+  {
+    "id": "s13-1",
+    "letter": "ش",
+    "category": "علوم ومعرفة",
+    "question": "نجمنا؟",
+    "answer": "شمس"
+  },
+  {
+    "id": "s13-2",
+    "letter": "ش",
+    "category": "علوم ومعرفة",
+    "question": "قوة المجال؟",
+    "answer": "شدة"
+  },
+  {
+    "id": "s13-3",
+    "letter": "ش",
+    "category": "علوم ومعرفة",
+    "question": "موجة ضوئية؟",
+    "answer": "شعاع"
+  },
+  {
+    "id": "s13-4",
+    "letter": "ش",
+    "category": "علوم ومعرفة",
+    "question": "شحنة كهربائية؟",
+    "answer": "شحنة"
+  },
+  {
+    "id": "s13-5",
+    "letter": "ش",
+    "category": "علوم ومعرفة",
+    "question": "اتجاه الشمال؟",
+    "answer": "شمال"
+  },
+  {
+    "id": "s14-1",
+    "letter": "ص",
+    "category": "علوم ومعرفة",
+    "question": "ذبذبات مسموعة؟",
+    "answer": "صوت"
+  },
+  {
+    "id": "s14-2",
+    "letter": "ص",
+    "category": "علوم ومعرفة",
+    "question": "مادة صلبة طبيعية؟",
+    "answer": "صخر"
+  },
+  {
+    "id": "s14-3",
+    "letter": "ص",
+    "category": "علوم ومعرفة",
+    "question": "عنصر Na؟",
+    "answer": "صوديوم"
+  },
+  {
+    "id": "s14-4",
+    "letter": "ص",
+    "category": "علوم ومعرفة",
+    "question": "مركب للتنظيف؟",
+    "answer": "صابون"
+  },
+  {
+    "id": "s14-5",
+    "letter": "ص",
+    "category": "علوم ومعرفة",
+    "question": "تحويل المواد؟",
+    "answer": "صناعة"
+  },
+  {
+    "id": "s15-1",
+    "letter": "ط",
+    "category": "علوم ومعرفة",
+    "question": "طاقة الحركة؟",
+    "answer": "طاقة حركية"
+  },
+  {
+    "id": "s15-2",
+    "letter": "ط",
+    "category": "علوم ومعرفة",
+    "question": "قوة الدفع؟",
+    "answer": "طاقة"
+  },
+  {
+    "id": "s15-3",
+    "letter": "ط",
+    "category": "علوم ومعرفة",
+    "question": "طاقة الحرارة؟",
+    "answer": "طاقة حرارية"
+  },
+  {
+    "id": "s15-4",
+    "letter": "ط",
+    "category": "علوم ومعرفة",
+    "question": "طاقة مخزنة؟",
+    "answer": "طاقة كامنة"
+  },
+  {
+    "id": "s15-5",
+    "letter": "ط",
+    "category": "علوم ومعرفة",
+    "question": "طاقة الضوء؟",
+    "answer": "طاقة ضوئية"
+  },
+  {
+    "id": "s16-1",
+    "letter": "ع",
+    "category": "علوم ومعرفة",
+    "question": "عضو الرؤية؟",
+    "answer": "عين"
+  },
+  {
+    "id": "s16-2",
+    "letter": "ع",
+    "category": "علوم ومعرفة",
+    "question": "العينان؟",
+    "answer": "عينان"
+  },
+  {
+    "id": "s16-3",
+    "letter": "ع",
+    "category": "علوم ومعرفة",
+    "question": "عدسة العين؟",
+    "answer": "عدسة"
+  },
+  {
+    "id": "s16-4",
+    "letter": "ع",
+    "category": "علوم ومعرفة",
+    "question": "عظم في الجسم؟",
+    "answer": "عظمة"
+  },
+  {
+    "id": "s16-5",
+    "letter": "ع",
+    "category": "علوم ومعرفة",
+    "question": "نقل الإشارة؟",
+    "answer": "عصب"
+  },
+  {
+    "id": "s17-1",
+    "letter": "ف",
+    "category": "علوم ومعرفة",
+    "question": "علم الطبيعة؟",
+    "answer": "فيزياء"
+  },
+  {
+    "id": "s17-2",
+    "letter": "ف",
+    "category": "علوم ومعرفة",
+    "question": "فرق الجهد؟",
+    "answer": "فرق"
+  },
+  {
+    "id": "s17-3",
+    "letter": "ف",
+    "category": "علوم ومعرفة",
+    "question": "غياب المادة؟",
+    "answer": "فراغ"
+  },
+  {
+    "id": "s17-4",
+    "letter": "ف",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الجهد؟",
+    "answer": "فولت"
+  },
+  {
+    "id": "s17-5",
+    "letter": "ف",
+    "category": "علوم ومعرفة",
+    "question": "ألياف بصرية؟",
+    "answer": "فيبر"
+  },
+  {
+    "id": "s18-1",
+    "letter": "ق",
+    "category": "علوم ومعرفة",
+    "question": "تابع الأرض؟",
+    "answer": "قمر"
+  },
+  {
+    "id": "s18-2",
+    "letter": "ق",
+    "category": "علوم ومعرفة",
+    "question": "قمر صناعي؟",
+    "answer": "قمر اصطناعي"
+  },
+  {
+    "id": "s18-3",
+    "letter": "ق",
+    "category": "علوم ومعرفة",
+    "question": "قوة نيوتن؟",
+    "answer": "قوة"
+  },
+  {
+    "id": "s18-4",
+    "letter": "ق",
+    "category": "علوم ومعرفة",
+    "question": "قانون الحركة؟",
+    "answer": "قانون"
+  },
+  {
+    "id": "s18-5",
+    "letter": "ق",
+    "category": "علوم ومعرفة",
+    "question": "منطقة الدائرة؟",
+    "answer": "قطاع"
+  },
+  {
+    "id": "s19-1",
+    "letter": "ك",
+    "category": "علوم ومعرفة",
+    "question": "وحدة K؟",
+    "answer": "كلفن"
+  },
+  {
+    "id": "s19-2",
+    "letter": "ك",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الألف؟",
+    "answer": "كيلو"
+  },
+  {
+    "id": "s19-3",
+    "letter": "ك",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الحرارة؟",
+    "answer": "كالوري"
+  },
+  {
+    "id": "s19-4",
+    "letter": "ك",
+    "category": "علوم ومعرفة",
+    "question": "كمية المادة؟",
+    "answer": "كتلة"
+  },
+  {
+    "id": "s19-5",
+    "letter": "ك",
+    "category": "علوم ومعرفة",
+    "question": "عزل كهربائي؟",
+    "answer": "كهرس"
+  },
+  {
+    "id": "s20-1",
+    "letter": "ل",
+    "category": "علوم ومعرفة",
+    "question": "وحدة السوائل؟",
+    "answer": "لتر"
+  },
+  {
+    "id": "s20-2",
+    "letter": "ل",
+    "category": "علوم ومعرفة",
+    "question": "ضوء مركز؟",
+    "answer": "ليزر"
+  },
+  {
+    "id": "s20-3",
+    "letter": "ل",
+    "category": "علوم ومعرفة",
+    "question": "مقاومة الجريان؟",
+    "answer": "لزوجة"
+  },
+  {
+    "id": "s20-4",
+    "letter": "ل",
+    "category": "علوم ومعرفة",
+    "question": "مناعة؟",
+    "answer": "لقاح"
+  },
+  {
+    "id": "s20-5",
+    "letter": "ل",
+    "category": "علوم ومعرفة",
+    "question": "لون الطيف؟",
+    "answer": "لون"
+  },
+  {
+    "id": "s21-1",
+    "letter": "م",
+    "category": "علوم ومعرفة",
+    "question": "جهاز التكبير؟",
+    "answer": "ميكروسكوب"
+  },
+  {
+    "id": "s21-2",
+    "letter": "م",
+    "category": "علوم ومعرفة",
+    "question": "مجهر؟",
+    "answer": "مجهر"
+  },
+  {
+    "id": "s21-3",
+    "letter": "م",
+    "category": "علوم ومعرفة",
+    "question": "تلسكوب؟",
+    "answer": "مقراب"
+  },
+  {
+    "id": "s21-4",
+    "letter": "م",
+    "category": "علوم ومعرفة",
+    "question": "منظار؟",
+    "answer": "منظار"
+  },
+  {
+    "id": "s21-5",
+    "letter": "م",
+    "category": "علوم ومعرفة",
+    "question": "مكثف كهربائي؟",
+    "answer": "مكثف"
+  },
+  {
+    "id": "s22-1",
+    "letter": "ن",
+    "category": "علوم ومعرفة",
+    "question": "غاز الضحك؟",
+    "answer": "نيتروز"
+  },
+  {
+    "id": "s22-2",
+    "letter": "ن",
+    "category": "علوم ومعرفة",
+    "question": "غاز N2O؟",
+    "answer": "نيتروز أوكسيد"
+  },
+  {
+    "id": "s22-3",
+    "letter": "ن",
+    "category": "علوم ومعرفة",
+    "question": "عنصر N؟",
+    "answer": "نيتروجين"
+  },
+  {
+    "id": "s22-4",
+    "letter": "ن",
+    "category": "علوم ومعرفة",
+    "question": "مركب نيترو؟",
+    "answer": "نيترات"
+  },
+  {
+    "id": "s22-5",
+    "letter": "ن",
+    "category": "علوم ومعرفة",
+    "question": "وحدة DNA؟",
+    "answer": "نيوكليوتيد"
+  },
+  {
+    "id": "s23-1",
+    "letter": "هـ",
+    "category": "علوم ومعرفة",
+    "question": "أخف العناصر؟",
+    "answer": "هيدروجين"
+  },
+  {
+    "id": "s23-2",
+    "letter": "هـ",
+    "category": "علوم ومعرفة",
+    "question": "غاز نبيل خفيف؟",
+    "answer": "هيليوم"
+  },
+  {
+    "id": "s23-3",
+    "letter": "هـ",
+    "category": "علوم ومعرفة",
+    "question": "مادة كيميائية في الجسم؟",
+    "answer": "هرمون"
+  },
+  {
+    "id": "s23-4",
+    "letter": "هـ",
+    "category": "علوم ومعرفة",
+    "question": "عملية في المعدة؟",
+    "answer": "هضم"
+  },
+  {
+    "id": "s23-5",
+    "letter": "هـ",
+    "category": "علوم ومعرفة",
+    "question": "شكل القمر الجديد؟",
+    "answer": "هلال"
+  },
+  {
+    "id": "s24-1",
+    "letter": "و",
+    "category": "علوم ومعرفة",
+    "question": "وحدة القدرة W؟",
+    "answer": "واط"
+  },
+  {
+    "id": "s24-2",
+    "letter": "و",
+    "category": "علوم ومعرفة",
+    "question": "وحدة قياس الكهرباء؟",
+    "answer": "واط ساعة"
+  },
+  {
+    "id": "s24-3",
+    "letter": "و",
+    "category": "علوم ومعرفة",
+    "question": "مادة للحرق؟",
+    "answer": "وقود"
+  },
+  {
+    "id": "s24-4",
+    "letter": "و",
+    "category": "علوم ومعرفة",
+    "question": "قوة الجذب على الجسم؟",
+    "answer": "وزن"
+  },
+  {
+    "id": "s24-5",
+    "letter": "و",
+    "category": "علوم ومعرفة",
+    "question": "وحدة قياس؟",
+    "answer": "وحدة"
+  },
+  {
+    "id": "s25-1",
+    "letter": "ي",
+    "category": "علوم ومعرفة",
+    "question": "عنصر I؟",
+    "answer": "يود"
+  },
+  {
+    "id": "s25-2",
+    "letter": "ي",
+    "category": "علوم ومعرفة",
+    "question": "مركب اليود؟",
+    "answer": "يوديد"
+  },
+  {
+    "id": "s25-3",
+    "letter": "ي",
+    "category": "علوم ومعرفة",
+    "question": "عنصر مشع للطاقة؟",
+    "answer": "يورانيوم"
+  },
+  {
+    "id": "s25-4",
+    "letter": "ي",
+    "category": "علوم ومعرفة",
+    "question": "مركب نيتروجيني؟",
+    "answer": "يوريا"
+  },
+  {
+    "id": "s25-5",
+    "letter": "ي",
+    "category": "علوم ومعرفة",
+    "question": "وحدة الزمن؟",
+    "answer": "يوم"
+  }
+]
