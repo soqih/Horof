@@ -1,30 +1,112 @@
 'use client';
 
-import React, { useState } from 'react';
-import { useGameStore, CellData } from '../../store/useGameStore';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { checkWin } from '../../lib/pathfinding';
+import { useGameStore, CellData, Team } from '../../store/useGameStore';
 import { BoardGrid } from '../../components/board/BoardGrid';
 import { NeoButton } from '../../components/ui/NeoButton';
 import { NeoModal } from '../../components/ui/NeoModal';
 
+const WIN_CONFIRM_SECONDS = 10;
+
 export default function BoardPage() {
     const {
+        cells,
         winner,
+        setWinner,
         resetGame,
         _hasHydrated,
         cycleCellOwner,
     } = useGameStore();
     const [isResetConfirmOpen, setIsResetConfirmOpen] = useState(false);
+    const [pendingWinner, setPendingWinner] = useState<Team | null>(null);
+    const [pendingSeconds, setPendingSeconds] = useState(WIN_CONFIRM_SECONDS);
+    const winTimeoutRef = useRef<number | null>(null);
+    const winIntervalRef = useRef<number | null>(null);
 
-    if (!_hasHydrated) return null;
+    const clearPendingWinTimers = useCallback(() => {
+        if (winTimeoutRef.current !== null) {
+            window.clearTimeout(winTimeoutRef.current);
+            winTimeoutRef.current = null;
+        }
+        if (winIntervalRef.current !== null) {
+            window.clearInterval(winIntervalRef.current);
+            winIntervalRef.current = null;
+        }
+    }, []);
+
+    const clearPendingWin = useCallback(() => {
+        clearPendingWinTimers();
+        setPendingWinner(null);
+        setPendingSeconds(WIN_CONFIRM_SECONDS);
+    }, [clearPendingWinTimers]);
+
+    const startPendingWin = useCallback(
+        (team: Team) => {
+            clearPendingWinTimers();
+
+            setPendingWinner(team);
+            setPendingSeconds(WIN_CONFIRM_SECONDS);
+
+            let remaining = WIN_CONFIRM_SECONDS;
+            winIntervalRef.current = window.setInterval(() => {
+                remaining -= 1;
+                if (remaining > 0) {
+                    setPendingSeconds(remaining);
+                }
+            }, 1000);
+
+            winTimeoutRef.current = window.setTimeout(() => {
+                const state = useGameStore.getState();
+                const stableWinner = checkWin(state.cells);
+                if (!state.winner && stableWinner === team) {
+                    state.setWinner(team);
+                }
+                clearPendingWin();
+            }, WIN_CONFIRM_SECONDS * 1000);
+        },
+        [clearPendingWin, clearPendingWinTimers]
+    );
+
+    const evaluatePendingWin = useCallback(() => {
+        const state = useGameStore.getState();
+        if (state.winner) {
+            clearPendingWin();
+            return;
+        }
+
+        const detectedWinner = checkWin(state.cells);
+        if (!detectedWinner) {
+            clearPendingWin();
+            return;
+        }
+
+        // Restart the countdown after every board change.
+        startPendingWin(detectedWinner);
+    }, [clearPendingWin, startPendingWin]);
 
     const handleCellClick = (cell: CellData) => {
+        if (winner) return;
+        const before = cells.map((c) => c.owner ?? '-').join('|');
         cycleCellOwner(cell.id);
+        const after = useGameStore.getState().cells.map((c) => c.owner ?? '-').join('|');
+        if (before !== after) {
+            evaluatePendingWin();
+        }
     };
 
     const confirmReset = () => {
+        clearPendingWin();
+        setWinner(null);
         resetGame();
         setIsResetConfirmOpen(false);
     };
+
+    useEffect(() => () => {
+        clearPendingWinTimers();
+    }, [clearPendingWinTimers]);
+
+    if (!_hasHydrated) return null;
 
     return (
         <div className="relative h-screen w-screen overflow-hidden bg-[var(--color-neo-bg)]">
@@ -33,6 +115,17 @@ export default function BoardPage() {
                     لعبة جديدة
                 </NeoButton>
             </div>
+
+            {pendingWinner && !winner && (
+                <div
+                    className={`absolute top-3 right-3 z-30 border-4 border-black px-4 py-2 font-black text-lg shadow-neo ${pendingWinner === 'red'
+                            ? 'bg-[var(--color-neo-red)] text-white'
+                            : 'bg-[var(--color-neo-blue)] text-white'
+                        }`}
+                >
+                    {pendingWinner === 'red' ? 'فوز الأحمر خلال' : 'فوز الأزرق خلال'} {pendingSeconds}
+                </div>
+            )}
 
             <div className="h-full w-full p-1 sm:p-2">
                 <BoardGrid onCellClick={handleCellClick} />

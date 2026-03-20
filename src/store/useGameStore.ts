@@ -30,6 +30,7 @@ interface GameState {
 
     // Actions
     setHasHydrated: (state: boolean) => void;
+    setWinner: (team: Team | null) => void;
     captureCell: (id: number, team: Team) => void;
     cycleCellOwner: (id: number) => void;
     usePerk: (team: Team, perk: keyof PerksState) => void;
@@ -81,6 +82,8 @@ export const useGameStore = create<GameState>()(
                 set({ _hasHydrated: state });
             },
 
+            setWinner: (team) => set({ winner: team }),
+
             captureCell: (id, team) => {
                 set((state) => {
                     if (state.winner) return state; // Do nothing if game is over
@@ -128,7 +131,6 @@ export const useGameStore = create<GameState>()(
 
                     return {
                         cells: nextCells,
-                        winner: checkWin(nextCells),
                         lastEditedCellId: id,
                     };
                 });
