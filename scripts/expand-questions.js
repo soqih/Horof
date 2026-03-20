@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Expands questions_batch_2.json from 1 to 5 questions per (category, letter).
  * Run: node scripts/expand-questions.js
@@ -153,7 +154,6 @@ const categories = ['جغرافيا', 'حيوانات', 'طعام', 'تاريخ 
 const prefix = { جغرافيا: 'g', حيوانات: 'a', طعام: 'f', 'تاريخ وشخصيات': 'h', 'علوم ومعرفة': 's' };
 
 const result = [];
-let idCounter = 1;
 
 for (const cat of categories) {
   for (let li = 0; li < 25; li++) {

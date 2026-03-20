@@ -14,7 +14,7 @@ export const PERK_NAMES: Record<keyof PerksState, string> = {
 };
 
 export const PerksDashboard: React.FC<PerksDashboardProps> = ({ team, onPerkClick }) => {
-    const { redPerks, bluePerks, usePerk, _hasHydrated } = useGameStore();
+    const { redPerks, bluePerks, usePerk: activatePerk, _hasHydrated } = useGameStore();
 
     if (!_hasHydrated) return null;
 
@@ -39,7 +39,7 @@ export const PerksDashboard: React.FC<PerksDashboardProps> = ({ team, onPerkClic
                             disabled={isUsed}
                             onClick={() => {
                                 onPerkClick?.(team, perkKey);
-                                usePerk(team, perkKey);
+                                activatePerk(team, perkKey);
                             }}
                             className={isUsed ? 'line-through text-gray-500 bg-gray-300' : ''}
                         >

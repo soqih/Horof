@@ -18,8 +18,8 @@ const getNeighbors = (x: number, y: number) => {
 export const checkWin = (cells: CellData[]): Team | null => {
     // Red wins: connect Top-Left edge (x=0) to Bottom-Right edge (x=4)
     const isRedWin = checkConnection(cells, 'red',
-        (x, y) => x === 0,
-        (x, y) => x === BOARD_SIZE - 1
+        (x) => x === 0,
+        (x) => x === BOARD_SIZE - 1
     );
     if (isRedWin) return 'red';
 

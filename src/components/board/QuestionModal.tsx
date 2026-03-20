@@ -21,7 +21,7 @@ export const QuestionModal: React.FC<QuestionModalProps> = ({ cell, isOpen, onCl
     const [showAnswer, setShowAnswer] = useState(false);
     const [activeCellId, setActiveCellId] = useState<number | null>(null);
 
-    const { captureCell, turn, activeFazaaTeam, usedQuestionIds, markQuestionUsed, clearActiveFazaaTeam } = useGameStore();
+    const { captureCell, activeFazaaTeam, usedQuestionIds, markQuestionUsed, clearActiveFazaaTeam } = useGameStore();
     const {
         questions,
         loading,

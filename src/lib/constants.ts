@@ -1,4 +1,4 @@
-// Exactly 28 letters of the Arabic alphabet
+// 25 letters used in this board variant
 export const LETTERS = [
     'أ', 'ب', 'ت', 'ث', 'ج', 'ح', 'خ',
     'د', 'ذ', 'ر', 'ز', 'س', 'ش', 'ص',

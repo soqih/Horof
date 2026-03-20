@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { persist, createJSONStorage } from 'zustand/middleware';
+import { createJSONStorage, persist } from 'zustand/middleware';
 import { checkWin } from '../lib/pathfinding';
 import { LETTERS } from '../lib/constants';
 
@@ -25,11 +25,13 @@ interface GameState {
     winner: Team | null;
     activeFazaaTeam: Team | null; // Which team's فزعة is active THIS turn
     usedQuestionIds: string[]; // Track used questions to prevent repeats
+    lastEditedCellId: number | null; // Last editable cell on the board
     _hasHydrated: boolean; // Hydration fix
 
     // Actions
     setHasHydrated: (state: boolean) => void;
     captureCell: (id: number, team: Team) => void;
+    cycleCellOwner: (id: number) => void;
     usePerk: (team: Team, perk: keyof PerksState) => void;
     resetGame: () => void;
     setTurn: (team: Team) => void; // Optional manual override
@@ -44,8 +46,18 @@ const initialPerks: PerksState = {
     rahBas: false,
 };
 
+const shuffleLetters = (letters: string[]): string[] => {
+    const shuffled = [...letters];
+    for (let i = shuffled.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j]!, shuffled[i]!];
+    }
+    return shuffled;
+};
+
 const createInitialCells = (): CellData[] => {
-    return LETTERS.map((letter, index) => ({
+    const randomizedLetters = shuffleLetters(LETTERS);
+    return randomizedLetters.map((letter, index) => ({
         id: index,
         letter,
         owner: null,
@@ -54,7 +66,7 @@ const createInitialCells = (): CellData[] => {
 
 export const useGameStore = create<GameState>()(
     persist(
-        (set, get) => ({
+        (set) => ({
             cells: createInitialCells(),
             turn: 'red',
             redPerks: { ...initialPerks },
@@ -62,6 +74,7 @@ export const useGameStore = create<GameState>()(
             winner: null,
             activeFazaaTeam: null,
             usedQuestionIds: [],
+            lastEditedCellId: null,
             _hasHydrated: false,
 
             setHasHydrated: (state) => {
@@ -74,9 +87,10 @@ export const useGameStore = create<GameState>()(
 
                     const nextCells = [...state.cells];
                     const cellIndex = nextCells.findIndex((c) => c.id === id);
-                    if (cellIndex !== -1 && nextCells[cellIndex].owner === null) {
-                        nextCells[cellIndex] = { ...nextCells[cellIndex], owner: team };
-                    }
+                    if (cellIndex === -1) return state;
+                    if (nextCells[cellIndex].owner !== null) return state;
+
+                    nextCells[cellIndex] = { ...nextCells[cellIndex], owner: team };
 
                     const winner = checkWin(nextCells);
 
@@ -84,6 +98,38 @@ export const useGameStore = create<GameState>()(
                         cells: nextCells,
                         turn: team === 'red' ? 'blue' : 'red',
                         winner,
+                        lastEditedCellId: id,
+                    };
+                });
+            },
+
+            cycleCellOwner: (id) => {
+                set((state) => {
+                    if (state.winner) return state;
+                    const nextCells = [...state.cells];
+                    const cellIndex = nextCells.findIndex((c) => c.id === id);
+                    if (cellIndex === -1) return state;
+
+                    const currentOwner = nextCells[cellIndex].owner;
+                    const isEditable =
+                        currentOwner === null || state.lastEditedCellId === id;
+
+                    // Prevent editing an older colored cell after moving on.
+                    if (!isEditable) return state;
+
+                    const nextOwner: Team | null =
+                        currentOwner === null
+                            ? 'red'
+                            : currentOwner === 'red'
+                                ? 'blue'
+                                : null;
+
+                    nextCells[cellIndex] = { ...nextCells[cellIndex], owner: nextOwner };
+
+                    return {
+                        cells: nextCells,
+                        winner: checkWin(nextCells),
+                        lastEditedCellId: id,
                     };
                 });
             },
@@ -100,7 +146,9 @@ export const useGameStore = create<GameState>()(
 
             resetGame: () => {
                 // Clear persisted storage completely
-                try { localStorage.removeItem('huroof-sub-storage'); } catch { }
+                try {
+                    sessionStorage.removeItem('huroof-sub-storage');
+                } catch { }
                 set({
                     cells: createInitialCells(),
                     turn: 'red',
@@ -109,18 +157,22 @@ export const useGameStore = create<GameState>()(
                     winner: null,
                     activeFazaaTeam: null,
                     usedQuestionIds: [],
+                    lastEditedCellId: null,
                 });
             },
 
             setTurn: (team) => set({ turn: team }),
             setActiveFazaaTeam: (team) => set({ activeFazaaTeam: team }),
             clearActiveFazaaTeam: () => set({ activeFazaaTeam: null }),
-            markQuestionUsed: (id) => set((state) => ({
-                usedQuestionIds: [...state.usedQuestionIds, id],
-            })),
+            markQuestionUsed: (id) =>
+                set((state) => {
+                    if (state.usedQuestionIds.includes(id)) return state;
+                    return { usedQuestionIds: [...state.usedQuestionIds, id] };
+                }),
         }),
         {
             name: 'huroof-sub-storage',
+            storage: createJSONStorage(() => sessionStorage),
             onRehydrateStorage: () => (state) => {
                 state?.setHasHydrated(true);
             },

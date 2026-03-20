@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { cn } from './NeoButton';
 
 interface NeoModalProps {
     isOpen: boolean;

@@ -23,6 +23,22 @@ function matchesLetter(boardLetter: string, questionLetter: string): boolean {
     return variants.includes(questionLetter);
 }
 
+function getFallbackPool(letter: string, categoryOverride?: string): Question[] {
+    const fallbackForLetter = FALLBACK_QUESTIONS.filter((q) =>
+        matchesLetter(letter, q.letter)
+    );
+
+    if (!categoryOverride) return fallbackForLetter;
+
+    const fallbackForLetterAndCategory = fallbackForLetter.filter(
+        (q) => q.category === categoryOverride
+    );
+
+    return fallbackForLetterAndCategory.length > 0
+        ? fallbackForLetterAndCategory
+        : fallbackForLetter;
+}
+
 // Fallback questions when JSON not loaded yet
 const FALLBACK_QUESTIONS: Question[] = LETTERS.flatMap((letter, lIdx) => [
     { id: `${lIdx}-تاريخ`, letter, category: 'تاريخ', question: `سؤال تاريخي يبدأ بحرف ${letter}؟`, answer: `إجابة تاريخية بحرف ${letter}` },
@@ -62,7 +78,8 @@ export function getRandomQuestionByLetter(
     categoryOverride?: string,
     excludeIds: string[] = []
 ): Question {
-    let pool = questions.filter((q) => matchesLetter(letter, q.letter));
+    const fullLetterPool = questions.filter((q) => matchesLetter(letter, q.letter));
+    let pool = fullLetterPool;
 
     if (categoryOverride) {
         pool = pool.filter((q) => q.category === categoryOverride);
@@ -78,9 +95,16 @@ export function getRandomQuestionByLetter(
     }
 
     if (pool.length === 0) {
-        pool = questions.filter((q) => matchesLetter(letter, q.letter));
+        // If chosen category has no questions for this letter, retry with all categories.
+        pool = fullLetterPool;
     }
-    if (pool.length === 0) return FALLBACK_QUESTIONS[0]!;
+    if (pool.length === 0) {
+        // Final fallback still respects current letter as much as possible.
+        pool = getFallbackPool(letter, categoryOverride);
+    }
+    if (pool.length === 0) {
+        pool = FALLBACK_QUESTIONS;
+    }
 
     const randomIndex = Math.floor(Math.random() * pool.length);
     return pool[randomIndex]!;

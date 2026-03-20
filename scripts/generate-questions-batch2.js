@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Generates 625 Arabic trivia questions for questions_batch_2.json
  * 5 categories × 25 letters × 5 questions = 625 total

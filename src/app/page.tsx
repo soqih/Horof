@@ -19,6 +19,12 @@ export default function Home() {
           </NeoButton>
         </Link>
 
+        <Link href="/questions">
+          <NeoButton variant="blue" size="xl" className="w-full">
+            واجهة الأسئلة
+          </NeoButton>
+        </Link>
+
         <Link href="/buzzer">
           <NeoButton variant="red" size="xl" className="w-full">
             الجرس

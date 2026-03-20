@@ -4,11 +4,12 @@ import { LetterCell } from './LetterCell';
 
 interface BoardGridProps {
     onCellClick: (cell: CellData) => void;
+    selectedCellId?: number | null;
 }
 
 const BOARD_SIZE = 5;
 
-export const BoardGrid: React.FC<BoardGridProps> = ({ onCellClick }) => {
+export const BoardGrid: React.FC<BoardGridProps> = ({ onCellClick, selectedCellId = null }) => {
     const { cells, _hasHydrated } = useGameStore();
 
     if (!_hasHydrated) return null;
@@ -31,9 +32,9 @@ export const BoardGrid: React.FC<BoardGridProps> = ({ onCellClick }) => {
     columns.forEach(col => col.sort((a, b) => (a.x + a.y) - (b.x + b.y)));
 
     return (
-        <div className="relative w-full h-full max-w-4xl mx-auto flex flex-col items-center justify-center min-h-0 py-2 sm:py-4">
+        <div className="relative w-full h-full flex flex-col items-center justify-center min-h-0">
 
-            <div className="relative w-full z-10 flex flex-col items-center justify-center py-10 px-4 sm:py-16 sm:px-8 lg:py-24 lg:px-12 border-8 border-black shadow-neo-lg overflow-hidden"
+            <div className="relative w-full h-full z-10 flex flex-col items-center justify-center py-2 px-1 sm:py-4 sm:px-2 border-8 border-black shadow-neo-lg overflow-hidden"
                 style={{
                     // Perfect cross mapping: Top-Left=Red, Bottom-Left=Blue, Bottom-Right=Red, Top-Right=Blue
                     // 0deg = Up. 0-90 = TR, 90-180 = BR, 180-270 = BL, 270-360 = TL
@@ -45,7 +46,7 @@ export const BoardGrid: React.FC<BoardGridProps> = ({ onCellClick }) => {
 
                 <div className="relative z-10 flex flex-row items-center justify-center w-full"
                     style={{
-                        '--w': 'clamp(45px, 9vw, 95px)',
+                        '--w': 'clamp(46px, min(13vw, 18vh), 150px)',
                         '--h': 'calc(var(--w) * 0.866)', // sin(60)
                     } as React.CSSProperties}
                 >
@@ -60,7 +61,11 @@ export const BoardGrid: React.FC<BoardGridProps> = ({ onCellClick }) => {
                         >
                             {colGroup.map(({ cell }) => (
                                 <div key={cell.id} className="relative" style={{ width: 'var(--w)', height: 'var(--h)' }}>
-                                    <LetterCell cell={cell} onClick={onCellClick} />
+                                    <LetterCell
+                                        cell={cell}
+                                        onClick={onCellClick}
+                                        isSelected={selectedCellId === cell.id}
+                                    />
                                 </div>
                             ))}
                         </div>
